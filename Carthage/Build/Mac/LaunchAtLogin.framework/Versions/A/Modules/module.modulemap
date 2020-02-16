@@ -1,0 +1,11 @@
+framework module LaunchAtLogin {
+  umbrella header "LaunchAtLogin.h"
+
+  export *
+  module * { export * }
+}
+
+module LaunchAtLogin.Swift {
+    header "LaunchAtLogin-Swift.h"
+    requires objc
+}
