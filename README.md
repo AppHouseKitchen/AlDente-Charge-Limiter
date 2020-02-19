@@ -1,7 +1,7 @@
 # AlDente 🍝
 _MacOS menu bar tool to limit maximum charging percentage_
 
-##### Don't overcook your battery! Keep it fresh and chewy with AlDente.
+#### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
 ## Why do I need this?
 Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 30 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your notebook significantly. 
@@ -29,7 +29,7 @@ For some reason, MacOS will always try to squeeze in a few more percent than spe
 
 Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even tough your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
-Other tools I used in this project:
+## Other tools I used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
 * <https://github.com/andreyvit/create-dmg>
