@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9224A08723F1F70600961AC4 /* com.davidwernhart.Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9283741823F1F34400B8AE7A /* com.davidwernhart.Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9240BF2C23FD34E2005A710B /* LaunchAtLogin.framework.dSYM in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9240BF2D23FD3547005A710B /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; };
+		9240BF2E23FD3547005A710B /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		927DBFC923F5478E00F8BF0D /* HelperToolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */; };
 		927DBFCA23F5478E00F8BF0D /* HelperToolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */; };
 		9283741B23F1F34400B8AE7A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283741A23F1F34400B8AE7A /* main.swift */; };
-		9286FB4923F84C2B00BEB15B /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; };
-		9286FB4A23F84C2B00BEB15B /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		92981EDB23F08D9B00C05424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92981EDA23F08D9B00C05424 /* AppDelegate.swift */; };
 		92981EDD23F08D9B00C05424 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92981EDC23F08D9B00C05424 /* ContentView.swift */; };
 		92981EDF23F08D9C00C05424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92981EDE23F08D9C00C05424 /* Assets.xcassets */; };
@@ -32,6 +33,17 @@
 			files = (
 				9224A08723F1F70600961AC4 /* com.davidwernhart.Helper in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9240BF2F23FD3547005A710B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9240BF2E23FD3547005A710B /* LaunchAtLogin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9258163B23F5CBD500AB7387 /* Embed Frameworks */ = {
@@ -57,9 +69,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 16;
 			files = (
-				9286FB4A23F84C2B00BEB15B /* LaunchAtLogin.framework in Embed Frameworks */,
+				9240BF2C23FD34E2005A710B /* LaunchAtLogin.framework.dSYM in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +79,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9240BF2923FD3257005A710B /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
+		9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
 		927DBFC623F533FB00F8BF0D /* Helper-Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helper-Launchd.plist"; sourceTree = "<group>"; };
 		927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperToolProtocol.swift; sourceTree = "<group>"; };
 		927DBFCB23F54C2C00F8BF0D /* HelperTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTool.swift; sourceTree = "<group>"; };
@@ -98,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9286FB4923F84C2B00BEB15B /* LaunchAtLogin.framework in Frameworks */,
+				9240BF2D23FD3547005A710B /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +150,8 @@
 		92981ECE23F08D9B00C05424 = {
 			isa = PBXGroup;
 			children = (
+				9240BF2923FD3257005A710B /* LaunchAtLogin.framework.dSYM */,
+				9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */,
 				927DBFC723F545AF00F8BF0D /* Common */,
 				92981ED923F08D9B00C05424 /* AlDente */,
 				9283741923F1F34400B8AE7A /* com.davidwernhart.Helper */,
@@ -205,8 +221,9 @@
 				92981ED423F08D9B00C05424 /* Frameworks */,
 				92981ED523F08D9B00C05424 /* Resources */,
 				9224A08623F1F6E300961AC4 /* CopyFiles */,
-				92E24B4423F847B500BE41ED /* ShellScript */,
 				9286FB4B23F84C2B00BEB15B /* Embed Frameworks */,
+				92E24B4423F847B500BE41ED /* ShellScript */,
+				9240BF2F23FD3547005A710B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,7 +300,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\n";
+			shellScript = "exec \"${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -504,9 +521,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlDente/AlDente.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AlDente/Preview Content\"";
 				DEVELOPMENT_TEAM = 56C2L92EKW;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -521,7 +538,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidwernhart.AlDente;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -535,9 +552,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AlDente/AlDente.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AlDente/Preview Content\"";
 				DEVELOPMENT_TEAM = 56C2L92EKW;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -552,7 +569,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidwernhart.AlDente;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -81,7 +81,15 @@ struct settings<Content: View>: View {
                 Spacer()
                 VStack(alignment: .leading){
                     Text("AlDente 🍝").font(.subheadline)
-                    Text("github.com/davidwernhart/AlDente").foregroundColor(Color.blue)
+                    Button(action:{
+                        let url = URL(string: "https://www.github.com/davidwernhart/AlDente")!
+                        if NSWorkspace.shared.open(url) {
+                            print("default browser was successfully opened")
+                        }
+                    }){
+                        Text("github.com/davidwernhart/AlDente").foregroundColor(Color.blue)
+                    }.buttonStyle(PlainButtonStyle())
+                    
                     Text("Created with 🤍 by David Wernhart in 2020")
 //                    Text("AlDente 🍝").font(.title)
 //                    Text("Keep your battery just right").font(.subheadline)

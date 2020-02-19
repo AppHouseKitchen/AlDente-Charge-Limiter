@@ -20,10 +20,12 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>LSUIElement</key>
-	<false/>
+	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 David Wernhart. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
@@ -37,7 +39,7 @@
 	<key>SMPrivilegedExecutables</key>
 	<dict>
 		<key>com.davidwernhart.Helper</key>
-		<string>identifier &quot;com.davidwernhart.Helper&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: david.wernhart96@gmail.com (GSDX9BQ584)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		<string>identifier "com.davidwernhart.Helper" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: david.wernhart96@gmail.com (GSDX9BQ584)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 	</dict>
 </dict>
 </plist>
