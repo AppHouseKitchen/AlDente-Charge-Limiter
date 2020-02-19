@@ -4,7 +4,9 @@ _MacOS menu bar tool to limit maximum charging percentage_
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
 ## Why do I need this?
-Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 30 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your notebook significantly. 
+Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 30 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your notebook significantly.
+More information can be found here:
+<https://batteryuniversity.com/learn/article/how_to_charge_when_to_charge_table>
 
 ## How does it work?
 The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
