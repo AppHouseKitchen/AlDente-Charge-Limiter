@@ -13,6 +13,7 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 For everyone that is curious, the modified SMC key is called "BCLM" (Presumably "Battery Charge Level Max")
 
 ## AlDente is tested and working on:
+* 2020 MacBook Pro 13" with 4 TB3 ports
 * 2019 MacBook Pro 16"
 * 2017 Macbook Pro 13" without TouchBar
 * 2017 MacBook Air 13"
