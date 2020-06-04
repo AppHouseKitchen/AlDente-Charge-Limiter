@@ -32,11 +32,16 @@ struct RedButtonStyle: ButtonStyle {
     }
 }
 
+var osxScale:Bool = true
+
 struct settings<Content: View>: View {
     
     
     var content: () -> Content
     @State var launchOnLogin = LaunchAtLogin.isEnabled
+    @State var osxScaleToggle = osxScale
+    @ObservedObject var presenter = SMCPresenter.shared
+
 
     init(@ViewBuilder _ content: @escaping () -> Content) {
         self.content = content
@@ -66,6 +71,19 @@ struct settings<Content: View>: View {
                     Text("Launch on Login")
                 }.padding()
                 
+                Toggle(isOn: Binding(
+                    get: {
+                        self.osxScaleToggle
+                    },
+                    set: {(newValue) in
+                        self.osxScaleToggle = newValue
+                        osxScale = newValue
+                        self.presenter.setValue(value: Float(self.presenter.value))
+                    }
+                )) {
+                    Text("Use MacOS battery scale")
+                }.padding()
+                
                 Spacer()
                 Button( action: {
                         Helper.instance.installHelper()
@@ -80,7 +98,7 @@ struct settings<Content: View>: View {
             HStack(alignment: .center) {
                 Spacer()
                 VStack(alignment: .leading){
-                    Text("AlDente 🍝").font(.subheadline)
+                    Text("AlDente 1.2 🍝").font(.subheadline)
                     Button(action:{
                         let url = URL(string: "https://www.github.com/davidwernhart/AlDente")!
                         if NSWorkspace.shared.open(url) {
@@ -114,7 +132,7 @@ struct ContentView: View{
     @State var adaptableHeight = CGFloat(100)
     @State var showSettings = false
     
-    @ObservedObject var presenter = SMCPresenter()
+    @ObservedObject var presenter = SMCPresenter.shared
     
     init() {
         Helper.instance.delegate = presenter
@@ -182,7 +200,8 @@ struct ContentView: View{
                 
                 Spacer()
                 if(self.showSettings){
-                    settings{Text("")}
+                    //settings{Text("")}
+                    settings({Text("")})
                 }
                 
             }.frame(width: 400, height: adaptableHeight)
@@ -195,12 +214,19 @@ struct ContentView: View{
 
 class SMCPresenter: ObservableObject, HelperDelegate{
     
+    static let shared = SMCPresenter()
+    
     @Published var value: UInt8 = 0
     private var timer: Timer?
     
     func OnMaxBatRead(value: UInt8){
         DispatchQueue.main.async {
-            self.value = value
+            if(osxScale){
+                self.value = value + 3
+            }
+            else{
+                self.value = value
+            }
         }
     }
     
@@ -209,11 +235,19 @@ class SMCPresenter: ObservableObject, HelperDelegate{
             self.value = UInt8(value)
         }
         self.timer?.invalidate()
+
         self.timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false, block: { timer in
-            print("Setting Max Battery To: ",value)
-            Helper.instance.writeMaxBatteryCharge(setVal: UInt8(value))
-            Helper.instance.readMaxBatteryCharge()
-            self.timer = nil
+            var setval = value
+            if(osxScale){
+                setval -= 3
+            }
+            if(setval >= 20 && setval <= 100){
+                print("Setting Max Battery To: ",setval)
+                Helper.instance.writeMaxBatteryCharge(setVal: UInt8(setval))
+                Helper.instance.readMaxBatteryCharge()
+                self.timer = nil
+            }
+            
         })
     }
 

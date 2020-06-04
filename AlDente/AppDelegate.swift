@@ -10,6 +10,7 @@ import Cocoa
 import SwiftUI
 import ServiceManagement
 import Foundation
+import LaunchAtLogin
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -33,14 +34,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let statusBar = NSStatusBar.system
         statusBarItem = statusBar.statusItem(
             withLength: NSStatusItem.squareLength)
-        statusBarItem.button?.title = "🍝"
+        statusBarItem.button?.image = NSImage(named: "menubaricon")!
+        //statusBarItem.button?.title = "🍝"
         
         if let button = self.statusBarItem.button {
             button.action = #selector(togglePopover(_:))
         }
         
         Helper.instance.checkHelperVersion()
-
+        
+        LaunchAtLogin.isEnabled = true
     }
     
     @objc func togglePopover(_ sender: AnyObject?) {
