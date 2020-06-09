@@ -1,5 +1,5 @@
 # AlDente 🍝
-_MacOS menu bar tool to limit maximum charging percentage_
+_macOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
@@ -29,7 +29,7 @@ On the first start, the application is going to ask you to allow installing a he
 Once finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your
 menu bar.
 
-For some reason, MacOS will always try to squeeze in a few more percent than specified by the SMC. For example, if you set yours to 80% it will stop charging at around 83%, so be patient. Strangely, this is not the case using Windows with bootcamp, therefore I have chosen not to correct this inaccuracy in code for now.
+For some reason, macOS will always try to squeeze in a few more percent than specified by the SMC. For example, if you set yours to 80% it will stop charging at around 83%, so be patient. Strangely, this is not the case using Windows with bootcamp, therefore I have chosen not to correct this inaccuracy in code for now.
 
 Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even tough your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
