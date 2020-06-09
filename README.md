@@ -26,7 +26,9 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 
 ## How to use:
 Simply extract the latest .zip release and drag the App to your Applications Folder.
+
 If you get the annoying `"AlDente cannot be opened because the developer cannot be verified"` or `"AlDente.app" can’t be opened because Apple can’t check it for malicious software.` messages on Catalina, simply navigate to your Applications folder using Finder, right click on AlDente and select `Open`. Then you can proceed to start the tool normally.
+
 On the first start, the application is going to ask you to allow installing a helper tool. This is necessary, since writing SMC Keys requires root privileges.
 Once finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your
 menu bar.
