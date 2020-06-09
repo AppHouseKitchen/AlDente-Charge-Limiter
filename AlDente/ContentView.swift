@@ -81,7 +81,7 @@ struct settings<Content: View>: View {
                         self.presenter.setValue(value: Float(self.presenter.value))
                     }
                 )) {
-                    Text("Use MacOS battery scale")
+                    Text("Use macOS battery scale")
                 }.padding()
                 
                 Spacer()
