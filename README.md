@@ -23,6 +23,7 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 ## Download:
 <https://github.com/davidwernhart/AlDente/releases>
 #### Currently ONLY works with macOS 10.15 Catalina.
+#### Tested and works well too with macOS 11.0.1 Big Sur.
 
 ## How to use:
 Simply extract the latest .zip release and drag the App to your Applications Folder.
