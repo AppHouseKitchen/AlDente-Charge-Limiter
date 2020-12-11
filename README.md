@@ -41,12 +41,16 @@ Usually, the operating system will take a minute or two registering the changes,
 
 ## FAQ
 * IT DOES NOT WORK???
+
 AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage.
 * STILL NOT WORKING :(
+
 Simply reboot your MacBook! This seems to do the trick for most people.
 * IS MACOS BIG SUR SUPPORTED?
+
 Allthough AlDente was written and compiled in Catalina, it works just fine on MacOS Big Sur.
 * HOW TO UNINSTALL?
+
 Make Sure to set your max. charging percentage back to 100 before moving AlDente to the Trash. If you really want to make sure, you can also reset your Mac's SMC. If you want to also remove the helper tool, take a look at this issue: <https://github.com/davidwernhart/AlDente/issues/19>.
 
 ## Other tools I used in this project:
