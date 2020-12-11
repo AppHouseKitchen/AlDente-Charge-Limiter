@@ -52,6 +52,9 @@ Allthough AlDente was written and compiled in Catalina, it works just fine on Ma
 * HOW TO UNINSTALL?
 
 Make Sure to set your max. charging percentage back to 100 before moving AlDente to the Trash. If you really want to make sure, you can also reset your Mac's SMC. If you want to also remove the helper tool, take a look at this issue: <https://github.com/davidwernhart/AlDente/issues/19>.
+* DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?
+
+Since this checkbox does not seem to do much for most users, many reported that it does not matter, although I would reccomend to uncheck it just to make sure.
 
 ## Other tools I used in this project:
 * <https://github.com/beltex/SMCKit>
