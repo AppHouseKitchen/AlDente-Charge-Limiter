@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505E96C92586211600DAA405 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 505E96C82586211600DAA405 /* LaunchAtLogin */; };
 		9224A08723F1F70600961AC4 /* com.davidwernhart.Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9283741823F1F34400B8AE7A /* com.davidwernhart.Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9240BF2C23FD34E2005A710B /* LaunchAtLogin.framework.dSYM in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9240BF2D23FD3547005A710B /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; };
-		9240BF2E23FD3547005A710B /* LaunchAtLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		927DBFC923F5478E00F8BF0D /* HelperToolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */; };
 		927DBFCA23F5478E00F8BF0D /* HelperToolProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */; };
 		9283741B23F1F34400B8AE7A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283741A23F1F34400B8AE7A /* main.swift */; };
@@ -35,59 +33,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9240BF2F23FD3547005A710B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9240BF2E23FD3547005A710B /* LaunchAtLogin.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9258163B23F5CBD500AB7387 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9283741623F1F34400B8AE7A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		9286FB4B23F84C2B00BEB15B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				9240BF2C23FD34E2005A710B /* LaunchAtLogin.framework.dSYM in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9240BF2923FD3257005A710B /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
-		9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LaunchAtLogin.framework.dSYM; path = Carthage/Build/Mac/LaunchAtLogin.framework.dSYM; sourceTree = "<group>"; };
 		927DBFC623F533FB00F8BF0D /* Helper-Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helper-Launchd.plist"; sourceTree = "<group>"; };
 		927DBFC823F5478E00F8BF0D /* HelperToolProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperToolProtocol.swift; sourceTree = "<group>"; };
 		927DBFCB23F54C2C00F8BF0D /* HelperTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTool.swift; sourceTree = "<group>"; };
 		9283741823F1F34400B8AE7A /* com.davidwernhart.Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.davidwernhart.Helper; sourceTree = BUILT_PRODUCTS_DIR; };
 		9283741A23F1F34400B8AE7A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9283741F23F1F38100B8AE7A /* Helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helper-Info.plist"; sourceTree = "<group>"; };
-		9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
 		92981ED723F08D9B00C05424 /* AlDente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlDente.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92981EDA23F08D9B00C05424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92981EDC23F08D9B00C05424 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,38 +49,22 @@
 		92981EE123F08D9C00C05424 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92981EE423F08D9C00C05424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92981EE623F08D9C00C05424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92981EE723F08D9C00C05424 /* AlDente.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlDente.entitlements; sourceTree = "<group>"; };
 		92ACA12D23F5F861003512DC /* SMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMC.swift; sourceTree = "<group>"; };
 		92E24B4023F6DC0D00BE41ED /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9283741523F1F34400B8AE7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		92981ED423F08D9B00C05424 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9240BF2D23FD3547005A710B /* LaunchAtLogin.framework in Frameworks */,
+				505E96C92586211600DAA405 /* LaunchAtLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9258163723F5CBD400AB7387 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9286FB4823F84C2B00BEB15B /* LaunchAtLogin.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		927DBFC723F545AF00F8BF0D /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,13 +88,10 @@
 		92981ECE23F08D9B00C05424 = {
 			isa = PBXGroup;
 			children = (
-				9240BF2923FD3257005A710B /* LaunchAtLogin.framework.dSYM */,
-				9240BF2B23FD34E2005A710B /* LaunchAtLogin.framework.dSYM */,
 				927DBFC723F545AF00F8BF0D /* Common */,
 				92981ED923F08D9B00C05424 /* AlDente */,
 				9283741923F1F34400B8AE7A /* com.davidwernhart.Helper */,
 				92981ED823F08D9B00C05424 /* Products */,
-				9258163723F5CBD400AB7387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,7 +113,6 @@
 				92981EDE23F08D9C00C05424 /* Assets.xcassets */,
 				92981EE323F08D9C00C05424 /* Main.storyboard */,
 				92981EE623F08D9C00C05424 /* Info.plist */,
-				92981EE723F08D9C00C05424 /* AlDente.entitlements */,
 				92981EE023F08D9C00C05424 /* Preview Content */,
 			);
 			path = AlDente;
@@ -200,9 +134,6 @@
 			buildConfigurationList = 9283741C23F1F34400B8AE7A /* Build configuration list for PBXNativeTarget "com.davidwernhart.Helper" */;
 			buildPhases = (
 				9283741423F1F34400B8AE7A /* Sources */,
-				9283741523F1F34400B8AE7A /* Frameworks */,
-				9283741623F1F34400B8AE7A /* CopyFiles */,
-				9258163B23F5CBD500AB7387 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,15 +152,16 @@
 				92981ED423F08D9B00C05424 /* Frameworks */,
 				92981ED523F08D9B00C05424 /* Resources */,
 				9224A08623F1F6E300961AC4 /* CopyFiles */,
-				9240BF2F23FD3547005A710B /* Embed Frameworks */,
-				9286FB4B23F84C2B00BEB15B /* Embed Frameworks */,
-				92E24B4423F847B500BE41ED /* ShellScript */,
+				92E24B4423F847B500BE41ED /* LaunchAtLogin */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AlDente;
+			packageProductDependencies = (
+				505E96C82586211600DAA405 /* LaunchAtLogin */,
+			);
 			productName = AlDente;
 			productReference = 92981ED723F08D9B00C05424 /* AlDente.app */;
 			productType = "com.apple.product-type.application";
@@ -253,7 +185,7 @@
 				};
 			};
 			buildConfigurationList = 92981ED223F08D9B00C05424 /* Build configuration list for PBXProject "AlDente" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -261,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 92981ECE23F08D9B00C05424;
+			packageReferences = (
+				505E96C72586211600DAA405 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 92981ED823F08D9B00C05424 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,7 +220,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		92E24B4423F847B500BE41ED /* ShellScript */ = {
+		92E24B4423F847B500BE41ED /* LaunchAtLogin */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,13 +229,14 @@
 			);
 			inputPaths = (
 			);
+			name = LaunchAtLogin;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec \"${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\"\n";
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -523,7 +459,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = AlDente/AlDente.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -532,10 +467,6 @@
 				DEVELOPMENT_TEAM = 56C2L92EKW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = AlDente/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,7 +486,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = AlDente/AlDente.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -564,10 +494,6 @@
 				DEVELOPMENT_TEAM = 56C2L92EKW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = AlDente/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,6 +540,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		505E96C72586211600DAA405 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		505E96C82586211600DAA405 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 505E96C72586211600DAA405 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92981ECF23F08D9B00C05424 /* Project object */;
 }
