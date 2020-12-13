@@ -6,14 +6,12 @@
 //  Copyright © 2020 David Wernhart. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 import SwiftUI
-import ServiceManagement
-import Foundation
 import LaunchAtLogin
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate {
 
     //var window: NSWindow!
     var statusBarItem: NSStatusItem!
@@ -29,30 +27,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.behavior = .transient
         popover.contentViewController = NSHostingController(rootView: contentView)
         self.popover = popover
-        
-        
+
         let statusBar = NSStatusBar.system
-        statusBarItem = statusBar.statusItem(
-            withLength: NSStatusItem.squareLength)
+        statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
         statusBarItem.button?.image = NSImage(named: "menubaricon")!
-        //statusBarItem.button?.title = "🍝"
-        
-        if let button = self.statusBarItem.button {
-            button.action = #selector(togglePopover(_:))
-        }
-        
+        statusBarItem.button?.action = #selector(togglePopover(_:))
+
         Helper.instance.checkHelperVersion()
-        
+
         LaunchAtLogin.isEnabled = true
     }
-    
+
     @objc func togglePopover(_ sender: AnyObject?) {
-        self.popover.contentViewController?.view.window?.becomeKey()
+        popover.contentViewController?.view.window?.becomeKey()
+
         if let button = self.statusBarItem.button {
-            if self.popover.isShown {
-                self.popover.performClose(sender)
+            if popover.isShown {
+                popover.performClose(sender)
             } else {
-                self.popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
+                popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
             }
         }
     }
@@ -60,8 +53,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-    
 
-    
 }
-

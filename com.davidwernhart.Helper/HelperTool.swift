@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HelperTool: NSObject, HelperToolProtocol {
+final class HelperTool: NSObject, HelperToolProtocol {
     func getVersion(withReply reply: (String) -> Void) {
 //        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString" as String) as? String ?? "(unknown version)"
 //        let build = Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as? String ?? "(unknown build)"
