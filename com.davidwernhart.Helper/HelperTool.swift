@@ -16,39 +16,37 @@ class HelperTool: NSObject, HelperToolProtocol {
         reply(helperVersion)
 
     }
-    
-    func setSMCByte(key: String, value: UInt8){
+
+    func setSMCByte(key: String, value: UInt8) {
         do {
             try SMCKit.open()
         } catch {
             print(error)
             exit(EX_UNAVAILABLE)
         }
-        
-        var key = SMCKit.getKey(key, type: DataTypes.UInt8)
+
+        let smcKey = SMCKit.getKey(key, type: DataTypes.UInt8)
         let bytes: SMCBytes = (value, UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0),
         UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0),
         UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0),
         UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0),
         UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0), UInt8(0),
         UInt8(0), UInt8(0))
-        
-        do {
-            let status = try SMCKit.writeData(key,data: bytes)
-        } catch {
-        }
+
+        _ = try? SMCKit.writeData(smcKey, data: bytes)
     }
-    func readSMCByte(key: String, withReply reply: @escaping (UInt8) -> Void){
+
+    func readSMCByte(key: String, withReply reply: @escaping (UInt8) -> Void) {
         do {
             try SMCKit.open()
         } catch {
             print(error)
             exit(EX_UNAVAILABLE)
         }
-        
-        var key = SMCKit.getKey(key, type: DataTypes.UInt8)
+
+        let smcKey = SMCKit.getKey(key, type: DataTypes.UInt8)
         do {
-            let status = try SMCKit.readData(key).0
+            let status = try SMCKit.readData(smcKey).0
             reply(status)
         } catch {
             reply(0)

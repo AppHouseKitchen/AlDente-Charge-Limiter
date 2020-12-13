@@ -44,27 +44,31 @@ class Helper{
     
     @objc func installHelper() {
         print("trying to install helper!")
-        var status: OSStatus = noErr
-        let helperID = "com.davidwernhart.Helper" as CFString//Prefs.helperID as CFString
+        var status = noErr
+        let helperID = "com.davidwernhart.Helper" as CFString // Prefs.helperID as CFString
 
-        var authItem = AuthorizationItem(name: kSMRightBlessPrivilegedHelper, valueLength: 0, value: nil, flags: 0)
-        var authRights = AuthorizationRights(count: 1, items: &authItem)
+        var authItem = kSMRightBlessPrivilegedHelper.withCString {
+            AuthorizationItem(name: $0, valueLength: 0, value: nil, flags: 0)
+        }
+        var authRights = withUnsafeMutablePointer(to: &authItem) {
+            AuthorizationRights(count: 1, items: $0)
+        }
         let authFlags: AuthorizationFlags = [.interactionAllowed, .preAuthorize, .extendRights]
-        var authRef: AuthorizationRef? = nil
+        var authRef: AuthorizationRef?
         status = AuthorizationCreate(&authRights, nil, authFlags, &authRef)
         if status != errAuthorizationSuccess {
-            print(SecCopyErrorMessageString(status,nil))
-            print("Error:", String(status))
+            print(SecCopyErrorMessageString(status, nil) ?? "")
+            print("Error: \(status)")
         }
-        var error: Unmanaged<CFError>? = nil
+        var error: Unmanaged<CFError>?
         SMJobBless(kSMDomainSystemLaunchd, helperID, authRef, &error)
         if let e = error?.takeRetainedValue() {
-            print("Domain:", CFErrorGetDomain(e))
-            print("Code:", CFErrorGetCode(e))
-            print("UserInfo:", CFErrorCopyUserInfo(e))
-            print("Description:", CFErrorCopyDescription(e))
-            print("Reason:", CFErrorCopyFailureReason(e))
-            print("Suggestion:", CFErrorCopyRecoverySuggestion(e))
+            print("Domain: ", CFErrorGetDomain(e) ?? "")
+            print("Code: ", CFErrorGetCode(e))
+            print("UserInfo: ", CFErrorCopyUserInfo(e) ?? "")
+            print("Description: ", CFErrorCopyDescription(e) ?? "")
+            print("Reason: ", CFErrorCopyFailureReason(e) ?? "")
+            print("Suggestion: ", CFErrorCopyRecoverySuggestion(e) ?? "")
         }
     }
 
