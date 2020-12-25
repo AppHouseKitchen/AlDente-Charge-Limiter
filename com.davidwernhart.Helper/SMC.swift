@@ -254,7 +254,7 @@ public struct SMCKey {
 
 public struct DataType: Equatable {
     let type: FourCharCode
-    let size: UInt32
+    let size: IOByteCount
 }
 
 public func ==(lhs: DataType, rhs: DataType) -> Bool {
@@ -340,9 +340,9 @@ public struct SMCKit {
 
         return outputStruct.key
     }
-    
-    public static func getKey(_ code:String,type:DataType) -> SMCKey{
-        let key = SMCKey(code: FourCharCode(fromString: code),info: type)
+
+    public static func getKey(_ code: String, type: DataType) -> SMCKey {
+        let key = SMCKey(code: FourCharCode(fromString: code), info: type)
         return key
     }
 
@@ -351,7 +351,7 @@ public struct SMCKit {
         var inputStruct = SMCParamStruct()
 
         inputStruct.key = key.code
-        inputStruct.keyInfo.dataSize = UInt32(key.info.size)
+        inputStruct.keyInfo.dataSize = key.info.size
         inputStruct.data8 = SMCParamStruct.Selector.kSMCReadKey.rawValue
 
         let outputStruct = try callDriver(&inputStruct)
@@ -365,7 +365,7 @@ public struct SMCKit {
 
         inputStruct.key = key.code
         inputStruct.bytes = data
-        inputStruct.keyInfo.dataSize = UInt32(key.info.size)
+        inputStruct.keyInfo.dataSize = key.info.size
         inputStruct.data8 = SMCParamStruct.Selector.kSMCWriteKey.rawValue
 
         _ = try callDriver(&inputStruct)
@@ -528,35 +528,35 @@ public struct TemperatureSensors {
     public static let THUNDERBOLT_1 = TemperatureSensor(name: "THUNDERBOLT_1",
                                    code: FourCharCode(fromStaticString: "TI1P"))
 
-    public static let all = [AMBIENT_AIR_0.code : AMBIENT_AIR_0,
-                             AMBIENT_AIR_1.code : AMBIENT_AIR_1,
-                             CPU_0_DIE.code : CPU_0_DIE,
-                             CPU_0_DIODE.code : CPU_0_DIODE,
-                             CPU_0_HEATSINK.code : CPU_0_HEATSINK,
-                             CPU_0_PROXIMITY.code : CPU_0_PROXIMITY,
-                             ENCLOSURE_BASE_0.code : ENCLOSURE_BASE_0,
-                             ENCLOSURE_BASE_1.code : ENCLOSURE_BASE_1,
-                             ENCLOSURE_BASE_2.code : ENCLOSURE_BASE_2,
-                             ENCLOSURE_BASE_3.code : ENCLOSURE_BASE_3,
-                             GPU_0_DIODE.code : GPU_0_DIODE,
-                             GPU_0_HEATSINK.code : GPU_0_HEATSINK,
-                             GPU_0_PROXIMITY.code : GPU_0_PROXIMITY,
-                             HDD_PROXIMITY.code : HDD_PROXIMITY,
-                             HEATSINK_0.code : HEATSINK_0,
-                             HEATSINK_1.code : HEATSINK_1,
-                             HEATSINK_2.code : HEATSINK_2,
-                             MEM_SLOT_0.code : MEM_SLOT_0,
+    public static let all = [AMBIENT_AIR_0.code: AMBIENT_AIR_0,
+                             AMBIENT_AIR_1.code: AMBIENT_AIR_1,
+                             CPU_0_DIE.code: CPU_0_DIE,
+                             CPU_0_DIODE.code: CPU_0_DIODE,
+                             CPU_0_HEATSINK.code: CPU_0_HEATSINK,
+                             CPU_0_PROXIMITY.code: CPU_0_PROXIMITY,
+                             ENCLOSURE_BASE_0.code: ENCLOSURE_BASE_0,
+                             ENCLOSURE_BASE_1.code: ENCLOSURE_BASE_1,
+                             ENCLOSURE_BASE_2.code: ENCLOSURE_BASE_2,
+                             ENCLOSURE_BASE_3.code: ENCLOSURE_BASE_3,
+                             GPU_0_DIODE.code: GPU_0_DIODE,
+                             GPU_0_HEATSINK.code: GPU_0_HEATSINK,
+                             GPU_0_PROXIMITY.code: GPU_0_PROXIMITY,
+                             HDD_PROXIMITY.code: HDD_PROXIMITY,
+                             HEATSINK_0.code: HEATSINK_0,
+                             HEATSINK_1.code: HEATSINK_1,
+                             HEATSINK_2.code: HEATSINK_2,
+                             MEM_SLOT_0.code: MEM_SLOT_0,
                              MEM_SLOTS_PROXIMITY.code: MEM_SLOTS_PROXIMITY,
-                             PALM_REST.code : PALM_REST,
-                             LCD_PROXIMITY.code : LCD_PROXIMITY,
-                             MISC_PROXIMITY.code : MISC_PROXIMITY,
-                             NORTHBRIDGE.code : NORTHBRIDGE,
-                             NORTHBRIDGE_DIODE.code : NORTHBRIDGE_DIODE,
-                             NORTHBRIDGE_PROXIMITY.code : NORTHBRIDGE_PROXIMITY,
-                             ODD_PROXIMITY.code : ODD_PROXIMITY,
-                             PWR_SUPPLY_PROXIMITY.code : PWR_SUPPLY_PROXIMITY,
-                             THUNDERBOLT_0.code : THUNDERBOLT_0,
-                             THUNDERBOLT_1.code : THUNDERBOLT_1]
+                             PALM_REST.code: PALM_REST,
+                             LCD_PROXIMITY.code: LCD_PROXIMITY,
+                             MISC_PROXIMITY.code: MISC_PROXIMITY,
+                             NORTHBRIDGE.code: NORTHBRIDGE,
+                             NORTHBRIDGE_DIODE.code: NORTHBRIDGE_DIODE,
+                             NORTHBRIDGE_PROXIMITY.code: NORTHBRIDGE_PROXIMITY,
+                             ODD_PROXIMITY.code: ODD_PROXIMITY,
+                             PWR_SUPPLY_PROXIMITY.code: PWR_SUPPLY_PROXIMITY,
+                             THUNDERBOLT_0.code: THUNDERBOLT_0,
+                             THUNDERBOLT_1.code: THUNDERBOLT_1]
 }
 
 public struct TemperatureSensor {

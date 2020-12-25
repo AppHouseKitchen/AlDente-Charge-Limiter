@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HelperDelegate: NSObject, NSXPCListenerDelegate {
+final class HelperDelegate: NSObject, NSXPCListenerDelegate {
     func listener(_ listener: NSXPCListener, shouldAcceptNewConnection newConnection: NSXPCConnection) -> Bool {
         newConnection.exportedInterface = NSXPCInterface(with: HelperToolProtocol.self)
         newConnection.exportedObject = HelperTool()
@@ -22,4 +22,3 @@ let listener = NSXPCListener(machServiceName: "com.davidwernhart.Helper.mach")
 listener.delegate = delegate
 listener.resume()
 RunLoop.current.run()
-

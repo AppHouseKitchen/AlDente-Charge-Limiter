@@ -6,21 +6,19 @@
 //  Copyright © 2020 David Wernhart. All rights reserved.
 //
 
-import Cocoa
-import SwiftUI
-import ServiceManagement
 import Foundation
+import ServiceManagement
 
 protocol HelperDelegate {
     func OnMaxBatRead(value: UInt8)
 }
 
-class Helper{
-    
+final class Helper {
+
     static let instance = Helper()
-    
+
     public var delegate: HelperDelegate?
-    
+
 //    var receiveMessage = "" {
 //            didSet {
 //                DispatchQueue.main.async {
@@ -33,92 +31,94 @@ class Helper{
 //                }
 //            }
 //        }
-        
+
     lazy var helperToolConnection: NSXPCConnection = {
         let connection = NSXPCConnection(machServiceName: "com.davidwernhart.Helper.mach", options: .privileged)
         connection.remoteObjectInterface = NSXPCInterface(with: HelperToolProtocol.self)
-           
+
         connection.resume()
         return connection
     }()
-    
+
     @objc func installHelper() {
         print("trying to install helper!")
-        var status: OSStatus = noErr
-        let helperID = "com.davidwernhart.Helper" as CFString//Prefs.helperID as CFString
+        var status = noErr
+        let helperID = "com.davidwernhart.Helper" as CFString // Prefs.helperID as CFString
 
-        var authItem = AuthorizationItem(name: kSMRightBlessPrivilegedHelper, valueLength: 0, value: nil, flags: 0)
-        var authRights = AuthorizationRights(count: 1, items: &authItem)
+        var authItem = kSMRightBlessPrivilegedHelper.withCString {
+            AuthorizationItem(name: $0, valueLength: 0, value: nil, flags: 0)
+        }
+        var authRights = withUnsafeMutablePointer(to: &authItem) {
+            AuthorizationRights(count: 1, items: $0)
+        }
         let authFlags: AuthorizationFlags = [.interactionAllowed, .preAuthorize, .extendRights]
-        var authRef: AuthorizationRef? = nil
+        var authRef: AuthorizationRef?
         status = AuthorizationCreate(&authRights, nil, authFlags, &authRef)
         if status != errAuthorizationSuccess {
-            print(SecCopyErrorMessageString(status,nil))
-            print("Error:", String(status))
+            print(SecCopyErrorMessageString(status, nil) ?? "")
+            print("Error: \(status)")
         }
-        var error: Unmanaged<CFError>? = nil
+        var error: Unmanaged<CFError>?
         SMJobBless(kSMDomainSystemLaunchd, helperID, authRef, &error)
         if let e = error?.takeRetainedValue() {
-            print("Domain:", CFErrorGetDomain(e))
-            print("Code:", CFErrorGetCode(e))
-            print("UserInfo:", CFErrorCopyUserInfo(e))
-            print("Description:", CFErrorCopyDescription(e))
-            print("Reason:", CFErrorCopyFailureReason(e))
-            print("Suggestion:", CFErrorCopyRecoverySuggestion(e))
+            print("Domain: ", CFErrorGetDomain(e) ?? "")
+            print("Code: ", CFErrorGetCode(e))
+            print("UserInfo: ", CFErrorCopyUserInfo(e) ?? "")
+            print("Description: ", CFErrorCopyDescription(e) ?? "")
+            print("Reason: ", CFErrorCopyFailureReason(e) ?? "")
+            print("Suggestion: ", CFErrorCopyRecoverySuggestion(e) ?? "")
         }
     }
 
-
-    @objc func writeMaxBatteryCharge(setVal: UInt8){
+    @objc func writeMaxBatteryCharge(setVal: UInt8) {
         SMCWriteByte(key: "BCLM", value: setVal)
-        
 
     }
-    
-    @objc func readMaxBatteryCharge(){
-        SMCReadByte(key:"BCLM",withReply: { (value) in
+
+    @objc func readMaxBatteryCharge() {
+        SMCReadByte(key: "BCLM") { value in
             print(String(value))
             self.delegate?.OnMaxBatRead(value: value)
-        })
+        }
     }
 
     @objc func checkHelperVersion() {
         print("checking helper version")
-        if let helper = helperToolConnection.remoteObjectProxyWithErrorHandler({ (error) in
-            let e = error as NSError
+        let helper = helperToolConnection.remoteObjectProxyWithErrorHandler {
+            let e = $0 as NSError
             print("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
             self.installHelper()
             //self.receiveMessage.append("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
-        }) as? HelperToolProtocol {            
-            helper.getVersion(withReply: { (version) in
-                print("helperVersion:", helperVersion, " version from helper:",version)
-                if(!helperVersion.elementsEqual(version)){
-                    self.installHelper()
-                }
-                //self.receiveMessage.append("Version: \(version)\n")
-            })
-        }
-    }
+        } as? HelperToolProtocol
 
-    @objc func SMCReadByte(key:String, withReply reply: @escaping (UInt8) -> Void){
-        if let helper = helperToolConnection.remoteObjectProxyWithErrorHandler({ (error) in
-            let e = error as NSError
-            print("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
-            //self.receiveMessage.append("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
-        }) as? HelperToolProtocol {
-            helper.readSMCByte(key: key) { (value) in
-                reply (value)
+        helper?.getVersion { version in
+            print("helperVersion:", helperVersion, " version from helper:", version)
+            if !helperVersion.elementsEqual(version) {
+                self.installHelper()
             }
+            //self.receiveMessage.append("Version: \(version)\n")
         }
     }
 
-    @objc func SMCWriteByte(key:String,value:UInt8){
-        if let helper = helperToolConnection.remoteObjectProxyWithErrorHandler({ (error) in
-            let e = error as NSError
+    @objc func SMCReadByte(key: String, withReply reply: @escaping (UInt8) -> Void) {
+        let helper = helperToolConnection.remoteObjectProxyWithErrorHandler {
+            let e = $0 as NSError
             print("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
             //self.receiveMessage.append("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
-        }) as? HelperToolProtocol {
-            helper.setSMCByte(key: key,value: value)
+        } as? HelperToolProtocol
+
+        helper?.readSMCByte(key: key) {
+            reply($0)
         }
+    }
+
+    @objc func SMCWriteByte(key: String, value: UInt8) {
+        let helper = helperToolConnection.remoteObjectProxyWithErrorHandler {
+            let e = $0 as NSError
+            print("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
+            //self.receiveMessage.append("Remote proxy error \(e.code): \(e.localizedDescription) \(e.localizedRecoverySuggestion ?? "---")")
+        } as? HelperToolProtocol
+
+        helper?.setSMCByte(key: key, value: value)
     }
 }
