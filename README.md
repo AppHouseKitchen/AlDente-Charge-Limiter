@@ -23,8 +23,12 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 
 
 ## Download:
-<https://github.com/davidwernhart/AlDente/releases>
-#### Currently ONLY works with macOS 10.15 Catalina.
+AlDente is available as a homebrew cask. Install via
+```
+brew install aldente
+```
+
+Alternatively, you can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
 
 ## How to use:
 Simply extract the latest .zip release and drag the App to your Applications Folder.
