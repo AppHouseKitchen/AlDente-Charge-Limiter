@@ -18,12 +18,18 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 * 2019 MacBook Pro 16"
 * 2017 Macbook Pro 13" without TouchBar
 * 2017 MacBook Air 13"
+* 2017 MacBook 12"
 * 2016 MacBook Pro 15"
+* 2016 MacBook 12"
+* 2015 MacBook 12"
 * 2015 MacBook Pro 13"
+* 2014 MacBook Air 13"
+* 2014 MacBook Peo 13"
 * 2013 MacBook Pro 13"
 * 2010 MacBook
 
-## AlDente is currently NOT working on Apple Silicon (M1) MacBooks due to some SMC Key Changes!
+
+## AlDente is currently NOT working on Apple Silicon (M1) MacBooks. However, we are working on AlDente for Apple Silicon MacBooks as well.
 
 
 ## Download:
