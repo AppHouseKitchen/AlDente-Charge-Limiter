@@ -16,6 +16,7 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 * 2020 MacBook Pro 13" with 4 TB3 ports
 * 2020 Macbook Air 13" (Intel)
 * 2019 MacBook Pro 16"
+* 2019 MacBook Pro 13"
 * 2017 Macbook Pro 13" without TouchBar
 * 2017 MacBook Air 13"
 * 2017 MacBook 12"
