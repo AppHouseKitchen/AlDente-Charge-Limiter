@@ -3,6 +3,8 @@ _macOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
+## AlDente for Apple Silicon is coming soon!
+
 ## Why do I need this?
 Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 30 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your notebook significantly.
 More information can be found here:
@@ -21,8 +23,6 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 * 2015 MacBook Pro 13"
 * 2013 MacBook Pro 13"
 * 2010 MacBook
-
-## AlDente is currently NOT working on Apple Silicon (M1) MacBooks due to some SMC Key Changes!
 
 
 ## Download:
