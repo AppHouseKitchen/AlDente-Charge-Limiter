@@ -14,6 +14,7 @@ For everyone that is curious, the modified SMC key is called "BCLM" (Presumably 
 
 ## AlDente is tested and working on pretty much every Intel MacBook from 2011-2020, including: 
 * 2020 MacBook Pro 13" with 4 TB3 ports
+* 2020 Macbook Air 13" (Intel)
 * 2019 MacBook Pro 16"
 * 2017 Macbook Pro 13" without TouchBar
 * 2017 MacBook Air 13"
