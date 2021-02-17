@@ -7,7 +7,7 @@ _macOS menu bar tool to limit maximum charging percentage_
 The time has come: AlDente for Apple Silicon (M1 MacBooks) is out now. We thank everyone who has helped us here in the forum and hope you like it. Thats not all, we have also started working on a pro version of AlDente with advanced features several weeks ago. Since we have put a lot of hours into developing the app, it will cost a little. However, there will always be this free and open source version of AlDente updated with the new M1 SMC keys.  If you have any feature requests or ideas for AlDente Pro, let us know. If you want to get notified, when AlDente Pro comes out, just enter your email at https://apphousekitchen.com/aldente/ In the meantime, stay safe and keep your battery fresh. David & Matthias
 
 ## Why do I need this?
-Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 20 and 60 percent. Keeping your battery at 100% at all times can shorten the lifespan of your notebook significantly.
+Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 20 and 60 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
 More information can be found here:
 <https://batteryuniversity.com/learn/article/how_to_charge_when_to_charge_table>
 
@@ -18,9 +18,10 @@ More information can be found here:
 
 ## How does it work?
 The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
-For everyone that is curious, the modified SMC key is called "BCLM" (Presumably "Battery Charge Level Max")
 
-## AlDente is tested and working on pretty much every Intel MacBook from 2011-2020, including: 
+## AlDente is tested and working on pretty much every MacBook from 2011-2020, including: 
+* 2020 MacBook Air 13" M1 Apple Silicon
+* 2020 MacBook Pro 13" M1 Apple Silicon
 * 2020 MacBook Pro 13" with 4 TB3 ports
 * 2020 Macbook Air 13" (Intel)
 * 2019 MacBook Pro 16"
@@ -65,9 +66,6 @@ AlDente does only prevent your Mac from charging more than you specify, it does 
 * STILL NOT WORKING :(
 
 Simply reboot your MacBook! This seems to do the trick for most people.
-* IS MACOS BIG SUR SUPPORTED?
-
-Allthough AlDente was written and compiled in Catalina, it works just fine on MacOS Big Sur.
 * HOW TO UNINSTALL?
 
 Make Sure to set your max. charging percentage back to 100 before moving AlDente to the Trash. If you really want to make sure, you can also reset your Mac's SMC. If you want to also remove the helper tool, take a look at this issue: <https://github.com/davidwernhart/AlDente/issues/19>.
