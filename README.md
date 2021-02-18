@@ -81,7 +81,7 @@ Yes! Leaving it on results in slow charging, even when AlDente is trying to inhi
 ## Disclaimer:
 AlDente is currently in alpha phase and bugs may still be possible. Therefore, I do not take any responsibility for any sort of damage in result of using this tool! Alltough this had no negative side effects for me, AlDente still taps in some very low level system functions that are not ment to be tampered with. Use it at your own risk!
 
-Copyright(c) 2020 David Wernhart
+Copyright(c) 2021 David Wernhart
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
