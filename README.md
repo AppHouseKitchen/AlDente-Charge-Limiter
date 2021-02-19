@@ -17,7 +17,10 @@ More information can be found here:
 * Allow Discharge - When this feature is activated, your MacBook will run on battery until it reaches the desired percentage. Afterwards, it will stay at the desired battery percentage and use the power adapter again.
 
 ## Feature Review and Installation Process
+
 https://youtu.be/8jaTSi1kL1w
+
+Thanks to Haroon21 for making this awesome video tutorial.
 
 ## How does it work?
 The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
