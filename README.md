@@ -1,5 +1,5 @@
 # AlDente 🍝
-_macOS menu bar tool to limit maximum charging percentage_
+_MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
@@ -15,6 +15,9 @@ More information can be found here:
 * Max. Battery Charge allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards.
 * Launch at Login does exatly what it says, it will automatically launch AlDente when you start your MacBook. Make sure you safe the AlDente program file in the Applications folder for this feature to work.
 * Allow Discharge - When this feature is activated, your MacBook will run on battery until it reaches the desired percentage. Afterwards, it will stay at the desired battery percentage and use the power adapter again.
+
+## Feature Review and Installation Process
+https://youtu.be/8jaTSi1kL1w
 
 ## How does it work?
 The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
@@ -34,17 +37,17 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 * 2015 MacBook 12"
 * 2015 MacBook Pro 13"
 * 2014 MacBook Air 13"
-* 2014 MacBook Peo 13"
+* 2014 MacBook Pro 13"
 * 2013 MacBook Pro 13"
 * 2010 MacBook
 
 ## Download:
-AlDente is available as a homebrew cask. Install via
+You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
+
+Alternatively, AlDente is available as a homebrew cask. Install via
 ```
 brew install aldente
 ```
-
-Alternatively, you can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
 
 ## How to use:
 Simply extract the latest .zip release and drag the App to your Applications Folder.
