@@ -79,7 +79,7 @@ Make Sure to set your max. charging percentage back to 100 before moving AlDente
 * DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?
 
 Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
-* WHAT DOES THE FEATURE "USE OLDS SMC KEY (INTEL)" DO?
+* WHAT DOES THE FEATURE "USE OLD SMC KEY (INTEL)" DO?
 
 When activated, AlDente will use a different pathway to inhibit charging with the benefit of inhibiting charging even if your MacBook is turned off. However, it comes with a tradeoff: The feature "Allow Discharge" is not available when its activated. Furthermore, as the name suggests, this feature is only available on Intel MacBooks.
 
