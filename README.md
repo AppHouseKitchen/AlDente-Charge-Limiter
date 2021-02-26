@@ -59,12 +59,13 @@ Simply extract the latest .zip release and drag the App to your Applications Fol
 If you get the annoying `"AlDente cannot be opened because the developer cannot be verified"` or `"AlDente.app" can’t be opened because Apple can’t check it for malicious software.` messages on Catalina, simply navigate to your Applications folder using Finder, right click on AlDente and select `Open`. Then you can proceed to start the tool normally.
 
 On the first start, the application is going to ask you to allow installing a helper tool. This is necessary, since writing SMC Keys requires root privileges.
-Once finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your
-menu bar.
+Once finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar.
 
 For some reason, macOS will always try to squeeze in a few more percent than specified by the SMC. For example, if you set yours to 80% it will stop charging at around 83%, so be patient. Strangely, this is not the case using Windows with bootcamp, therefore I have chosen not to correct this inaccuracy in code for now.
 
 Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even tough your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
+
+IMPORTANT: Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
 
 ## FAQ
 * IT DOES NOT WORK???
