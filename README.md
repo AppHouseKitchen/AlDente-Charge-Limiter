@@ -84,6 +84,8 @@ Yes! Leaving it on results in slow charging, even when AlDente is trying to inhi
 * WHAT DOES THE FEATURE "USE OLD SMC KEY (INTEL)" DO?
 
 When activated, AlDente will use a different pathway to inhibit charging with the benefit of inhibiting charging even if your MacBook is turned off. However, it comes with a tradeoff: The feature "Allow Discharge" is not available when its activated. Furthermore, as the name suggests, this feature is only available on Intel MacBooks.
+* WHY DOES ALLOW DISCHARGE NOT WORK IN CLAMSHELL MODE?
+Unfortunaltely, while "Allow Discharge" is activated, clamshell mode is not supported due to technical limitations.
 
 ## Other tools I used in this project:
 * <https://github.com/beltex/SMCKit>
