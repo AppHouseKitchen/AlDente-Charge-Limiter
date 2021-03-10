@@ -3,6 +3,9 @@ _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
+## !IMPORTANT!
+Due to an expired developer certificate, all versions of AlDente prior to 2.1.2 are not working anymore. We have just released an updated and fixed version (AlDente 2.1.2, https://github.com/davidwernhart/AlDente/releases) signed with our new official developer account. However, some might need to delete the old helper files (instructions are in the release notes).
+
 ## AlDente for Apple Silicon (M1 MacBooks) is out now!
 The time has come: AlDente for Apple Silicon (M1 MacBooks) is out now. We thank everyone who has helped us here in the forum and hope you like it. Thats not all, we have also started working on a pro version of AlDente with advanced features several weeks ago. Since we have put a lot of hours into developing the app, it will cost a little. However, there will always be this free and open source version of AlDente updated with the new M1 SMC keys.  If you have any feature requests or ideas for AlDente Pro, let us know. If you want to get notified, when AlDente Pro comes out, just enter your email at https://apphousekitchen.com/aldente/ In the meantime, stay safe and keep your battery fresh. David & Matthias
 
