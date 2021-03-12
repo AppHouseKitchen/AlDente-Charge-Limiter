@@ -3,7 +3,7 @@ _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
-## !IMPORTANT!
+## !IMPORTANT! Regarding this message: "AlDente will damage your computer. You should move it to the trash."
 Due to an expired developer certificate, all versions of AlDente prior to 2.1.2 are not working anymore. We have just released an updated and fixed version (AlDente 2.1.2, https://github.com/davidwernhart/AlDente/releases) signed with our new official developer account. However, some might need to delete the old helper files manually (instructions are in the release notes).
 
 ## AlDente for Apple Silicon (M1 MacBooks) is out now!
