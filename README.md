@@ -52,11 +52,6 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 ## Download:
 You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
 
-Alternatively, AlDente is available as a homebrew cask. Install via
-```
-brew install aldente
-```
-
 ## How to use:
 Simply extract the latest .zip release and drag the App to your Applications Folder.
 
