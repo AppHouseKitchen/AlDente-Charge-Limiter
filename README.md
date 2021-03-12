@@ -36,6 +36,7 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 * 2020 Macbook Air 13" (Intel)
 * 2019 MacBook Pro 16"
 * 2019 MacBook Pro 13"
+* 2017 MacBook Pro 15"
 * 2017 Macbook Pro 13" without TouchBar
 * 2017 MacBook Air 13"
 * 2017 MacBook 12"
@@ -62,7 +63,7 @@ Once finished, enter your desired max. charging percentage by clicking on the �
 
 For some reason, macOS will always try to squeeze in a few more percent than specified by the SMC. For example, if you set yours to 80% it will stop charging at around 83%, so be patient. Strangely, this is not the case using Windows with bootcamp, therefore I have chosen not to correct this inaccuracy in code for now.
 
-Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even tough your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
+Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
 IMPORTANT: Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
 
