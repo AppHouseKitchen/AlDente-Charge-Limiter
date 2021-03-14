@@ -45,6 +45,7 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 * 2015 MacBook 12"
 * 2015 MacBook Pro 13"
 * 2014 MacBook Air 13"
+* 2014 MacBook Pro 15"
 * 2014 MacBook Pro 13"
 * 2013 MacBook Pro 13"
 * 2013 MacBook Air 13"
