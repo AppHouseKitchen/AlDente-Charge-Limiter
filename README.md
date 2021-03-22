@@ -17,7 +17,7 @@ More information can be found here:
 ## Features
 * Max. Battery Charge allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards.
 * Launch at Login does exatly what it says, it will automatically launch AlDente when you start your MacBook. Make sure you safe the AlDente program file in the Applications folder for this feature to work.
-* Allow Discharge - When this feature is activated, your MacBook will run on battery until it reaches the desired percentage. Afterwards, it will stay at the desired battery percentage and use the power adapter again.
+* Allow Discharge (Beta) - When this feature is activated, your MacBook will run on battery until it has reached the desired percentage. Afterwards, it will stay at the desired battery percentage and use the power adapter again. Unfortunately, while "Allow Discharge" is activated, clamshell mode is not supported due to technical limitations.
 * Use Classic SMC Key (Intel) - When activated, AlDente will use a different pathway to inhibit charging with the benefit of inhibiting charging even if your MacBook is turned off. However, it comes with a tradeoff: The feature "Allow Discharge" is not available when its activated. Furthermore, as the name suggests, this feature is only available on Intel MacBooks.
 
 ## Feature Review and Installation Process
