@@ -26,7 +26,7 @@ Thanks to Haroon21 for making this awesome video tutorial.
 ## How does it work?
 The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
 
-## AlDente is tested and working on pretty much every MacBook from 2010-2020, including: 
+## AlDente is tested and working with full functionality on the following MacBooks:
 * 2020 MacBook Air 13" M1 Apple Silicon
 * 2020 MacBook Pro 13" M1 Apple Silicon
 * 2020 MacBook Pro 13" with 4 TB3 ports
@@ -41,6 +41,9 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 * 2016 MacBook Pro 15"
 * 2016 MacBook 12"
 * 2015 MacBook 12"
+
+## Limited functionality on MacBooks from 2015 and older: 
+For AlDente to work on older MacBooks you have to activate the feature "USE OLD SMC KEY (INTEL)". Allow Discharge is not available on older devices.
 * 2015 MacBook Pro 13"
 * 2014 MacBook Air 13"
 * 2014 MacBook Pro 15"
