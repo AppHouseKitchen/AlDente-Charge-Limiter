@@ -6,9 +6,11 @@ _MacOS menu bar tool to limit maximum charging percentage_
 ## AlDente Pro Beta Launch!
 We are incredibly excited to share with you some big news: AlDente Pro is ready for the first taste tests!
 
-After months of development, AlDente Pro is finally ready for a limited number of beta testers. Do you want to help us fix the last bugs and get a 50% discount on AlDente Pro? Then write to us at news@apphousekitchen.com and tell us which MacBook version you have. Afterwards, we will send you the coupon code and the purchase link.
+After months of development, AlDente Pro is finally ready for a limited number of beta testers.
 
-You can find more information about AlDente Pro, all its features, and supported devices on our new website: <https://apphousekitchen.com>
+Thank you very much, we have enough beta testers for now. We will keep you up to date, when the final version of AlDente Pro is ready.
+
+In the meantime, you can find more information about AlDente Pro, all its features, and supported devices on our new website: <https://apphousekitchen.com>
 
 Greetings from the Kitchen,
 
