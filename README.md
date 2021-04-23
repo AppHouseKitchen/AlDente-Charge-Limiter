@@ -3,20 +3,18 @@ _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
-## AlDente Pro Beta Launch!
-We are incredibly excited to share with you some big news: AlDente Pro is ready for the first taste tests!
+## AlDente Pro 1.0 Launch!
+After months of hard work, sweat and countless plates of pasta, we are proud to release the first public version of AlDente Pro.
 
-After months of development, AlDente Pro is finally ready for a limited number of beta testers.
+Thanks to the incredible support of our beta testers, we can now bring AlDente Pro to everyone. You can get it at our new website: [https://apphousekitchen.com]
 
-Thank you very much, we have enough beta testers for now. We will keep you up to date, when the final version of AlDente Pro is ready.
+The pro version includes many convenient features like Sailing Mode, Heat Protection, Calibration Mode, Shortcuts and many more. On top of all that, it has a beautiful new design that gives you access to all important information at a glance.
 
-In the meantime, you can find more information about AlDente Pro, all its features, and supported devices on our new website: <https://apphousekitchen.com>
+If you would like to purchase our app and support further development of both the pro and the free version, head over to [AppHouseKitchen](https://apphousekitchen.com)!
 
-Greetings from the Kitchen,
+Your’s truly,
 
-David and Matthias
-
-AppHouseKitchen
+David & Matthias
 
 ## Why do I need this?
 Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 20 and 60 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
