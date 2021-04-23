@@ -6,7 +6,7 @@ _MacOS menu bar tool to limit maximum charging percentage_
 ## AlDente Pro 1.0 Launch!
 After months of hard work, sweat and countless plates of pasta, we are proud to release the first public version of AlDente Pro.
 
-Thanks to the incredible support of our beta testers, we can now bring AlDente Pro to everyone. You can get it at our new website: [https://apphousekitchen.com]
+Thanks to the incredible support of our beta testers, we can now bring AlDente Pro to everyone. You can get it at our new website: https://apphousekitchen.com
 
 The pro version includes many convenient features like Sailing Mode, Heat Protection, Calibration Mode, Shortcuts and many more. On top of all that, it has a beautiful new design that gives you access to all important information at a glance.
 
