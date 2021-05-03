@@ -59,6 +59,7 @@ For AlDente to work on older MacBooks you have to activate the feature "USE OLD 
 * 2014 MacBook Pro 15"
 * 2014 MacBook Pro 13"
 * 2013 MacBook Pro 13"
+* 2013 MacBook Pro 15"
 * 2013 MacBook Air 13"
 * 2010 MacBook
 
