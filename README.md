@@ -54,6 +54,7 @@ The tool writes the desired value to your MacBooks SMC (System Management Contro
 
 ## Limited functionality on MacBooks from 2015 and older: 
 For AlDente to work on older MacBooks you have to activate the feature "USE OLD SMC KEY (INTEL)". Allow Discharge is not available on older devices.
+* 2015 MacBook Pro 15"
 * 2015 MacBook Pro 13"
 * 2014 MacBook Air 13"
 * 2014 MacBook Pro 15"
