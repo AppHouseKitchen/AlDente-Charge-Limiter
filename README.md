@@ -18,6 +18,7 @@ AlDente Pro is our paid version of AlDente. It has many more features such as He
 ## Supported Devices (macOS 11 Big Sur required)
 
 MacBook Pro
+
 Full Support
 * MacBook Pro (13-inch, M1, 2020)
 * MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)
@@ -44,6 +45,7 @@ Limited Support(Only Charge Limiter)
 * MacBook Pro (Retina, 13-inch, Late 2013)
 
 MacBook Air
+
 Full Support
 * MacBook Air (M1, 2020)
 * MacBook Air (Retina, 13-inch, 2020)
@@ -109,4 +111,3 @@ I do not take any responsibility for any sort of damage in result of using this 
 Copyright(c) 2021 AppHouseKitchen
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-![image](https://user-images.githubusercontent.com/33470003/124397897-13215200-dd13-11eb-8a03-06a8f1e82678.png)
