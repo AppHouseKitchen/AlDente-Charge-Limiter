@@ -17,8 +17,7 @@ AlDente Pro is our paid version of AlDente. It has many more features such as He
 
 ## Supported Devices (macOS 11 Big Sur required)
 
-MacBook Pro
-
+#### MacBook Pro
 Full Support
 * MacBook Pro (13-inch, M1, 2020)
 * MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)
@@ -44,8 +43,7 @@ Limited Support(Only Charge Limiter)
 * MacBook Pro (Retina, 15-inch, Late 2013)
 * MacBook Pro (Retina, 13-inch, Late 2013)
 
-MacBook Air
-
+#### MacBook Air
 Full Support
 * MacBook Air (M1, 2020)
 * MacBook Air (Retina, 13-inch, 2020)
@@ -61,7 +59,7 @@ Limited Support(Only Charge Limiter)
 * MacBook Air (13-inch, Mid 2013)
 * MacBook Air (11-inch, Mid 2013)
 
-MacBook
+#### MacBook 12"
 Limited Support(Only Charge Limiter)
 * MacBook (Retina, 12-inch, 2017)
 * MacBook (Retina, 12-inch, Early 2016)
