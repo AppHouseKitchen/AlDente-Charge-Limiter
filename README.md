@@ -3,83 +3,80 @@ _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
-## AlDente Pro 1.0 Launch!
-After months of hard work, sweat and countless plates of pasta, we are proud to release the first public version of AlDente Pro.
-
-Thanks to the incredible support of our beta testers, we can now bring AlDente Pro to everyone. You can get it at our new website: https://apphousekitchen.com
-
-The pro version includes many convenient features like Sailing Mode, Heat Protection, Calibration Mode, Shortcuts and many more. On top of all that, it has a beautiful new design that gives you access to all important information at a glance.
-
-If you would like to purchase our app and support further development of both the pro and the free version, head over to [AppHouseKitchen](https://apphousekitchen.com)!
-
-Your’s truly,
-
-David & Matthias
-
 ## Why do I need this?
-Li-ion and polymer batteries (like the one in your MacBook) last the longest when operating between 20 and 60 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
+Li-Ion batteries (like the one in your MacBook) last the longest when operating between 20 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
 More information can be found here:
 <https://batteryuniversity.com/learn/article/how_to_charge_when_to_charge_table>
 
-## Features
-* Max. Battery Charge allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards.
-* Launch at Login does exatly what it says, it will automatically launch AlDente when you start your MacBook. Make sure you safe the AlDente program file in the Applications folder for this feature to work.
-* Allow Discharge (Beta) - When this feature is activated, your MacBook will run on battery until it has reached the desired percentage. Afterwards, it will stay at the desired battery percentage and use the power adapter again. Unfortunately, while "Allow Discharge" is activated, clamshell mode is not supported due to technical limitations.
-* Use Classic SMC Key (Intel) - When activated, AlDente will use a different pathway to inhibit charging with the benefit of inhibiting charging even if your MacBook is turned off. However, it comes with a tradeoff: The feature "Allow Discharge" is not available when its activated. Furthermore, as the name suggests, this feature is only available on Intel MacBooks.
+## What’s AlDente Pro?
+AlDente Pro is our paid version of AlDente. It has many more features such as Heat Protection, Sailing Mode, Top Up, Calibration Mode,... It offers a better design and has live status icons. If you are interested in getting the most out of your battery, check out our website: https://apphousekitchen.com/
 
-## Feature Review and Installation Process
+## Features of AlDente Free
+* Charge Limiter allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards. Read more about the Charge Limiter feature here: https://apphousekitchen.com/feature-explanation-charge-limiter/
+* Discharge - This feature allows your MacBook to run completely on Battery even if it is plugged in. Therefore, you can actively discharge your MacBook to a more healthy percentage. Unfortunately, while Discharge is activated, clamshell mode is not supported due to technical limitations. Read more about the Discharge feature here: https://apphousekitchen.com/feature-explanation-discharge/
 
-https://youtu.be/8jaTSi1kL1w
+## Supported Devices (macOS 11 Big Sur required)
 
-Thanks to Haroon21 for making this awesome video tutorial.
+MacBook Pro
+Full Support
+* MacBook Pro (13-inch, M1, 2020)
+* MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)
+* MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)
+* MacBook Pro (16-inch, 2019)
+* MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)
+* MacBook Pro (15-inch, 2019)
+* MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
+* MacBook Pro (15-inch, 2018)
+* MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)
+* MacBook Pro (15-inch, 2017)
+* MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)
+* MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)
+* MacBook Pro (15-inch, 2016)
+* MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)
+* MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)
 
-## How does it work?
-The tool writes the desired value to your MacBooks SMC (System Management Controller), which handles the rest.
+Limited Support(Only Charge Limiter)
+* MacBook Pro (Retina, 15-inch, Mid 2015)
+* MacBook Pro (Retina, 13-inch, Early 2015)
+* MacBook Pro (Retina, 15-inch, Mid 2014)
+* MacBook Pro (Retina, 13-inch, Mid 2014)
+* MacBook Pro (Retina, 15-inch, Late 2013)
+* MacBook Pro (Retina, 13-inch, Late 2013)
 
-## AlDente is tested and working with full functionality on the following MacBooks:
-* 2020 MacBook Air 13" M1 Apple Silicon
-* 2020 MacBook Pro 13" M1 Apple Silicon
-* 2020 MacBook Pro 13" with 4 TB3 ports
-* 2020 Macbook Air 13" (Intel)
-* 2019 MacBook Pro 16"
-* 2019 MacBook Pro 13"
-* 2018 MacBook Pro 15" with TouchBar
-* 2017 MacBook Pro 15"
-* 2017 Macbook Pro 13" without TouchBar
-* 2017 MacBook Air 13"
-* 2017 MacBook 12"
-* 2016 MacBook Pro 15"
-* 2016 MacBook 12"
-* 2015 MacBook 12"
+MacBook Air
+Full Support
+* MacBook Air (M1, 2020)
+* MacBook Air (Retina, 13-inch, 2020)
+* MacBook Air (Retina, 13-inch, 2019)
+* MacBook Air (Retina, 13-inch, 2018)
 
-## Limited functionality on MacBooks from 2015 and older: 
-For AlDente to work on older MacBooks you have to activate the feature "USE OLD SMC KEY (INTEL)". Allow Discharge is not available on older devices.
-* 2015 MacBook Pro 15"
-* 2015 MacBook Pro 13"
-* 2014 MacBook Air 13"
-* 2014 MacBook Pro 15"
-* 2014 MacBook Pro 13"
-* 2013 MacBook Pro 13"
-* 2013 MacBook Pro 15"
-* 2013 MacBook Air 13"
-* 2010 MacBook
+Limited Support(Only Charge Limiter)
+* MacBook Air (13-inch, 2017)
+* MacBook Air (13-inch, Early 2015)
+* MacBook Air (11-inch, Early 2015)
+* MacBook Air (13-inch, Early 2014)
+* MacBook Air (11-inch, Early 2014)
+* MacBook Air (13-inch, Mid 2013)
+* MacBook Air (11-inch, Mid 2013)
+
+MacBook
+Limited Support(Only Charge Limiter)
+* MacBook (Retina, 12-inch, 2017)
+* MacBook (Retina, 12-inch, Early 2016)
+* MacBook (Retina, 12-inch, Early 2015)
 
 ## Download:
 You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
 
+## Installation Guide
+An installation guide can be found on our website: https://apphousekitchen.com/installation-guide/
+
 ## How to use:
-Simply extract the latest .zip release and drag the App to your Applications Folder.
+When the installation is finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar. Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 80%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
-If you get the annoying `"AlDente cannot be opened because the developer cannot be verified"` or `"AlDente.app" can’t be opened because Apple can’t check it for malicious software.` messages on Catalina, simply navigate to your Applications folder using Finder, right click on AlDente and select `Open`. Then you can proceed to start the tool normally.
+For some reason, macOS will always try to squeeze in a few more percent than specified. For example, if you set yours to 80% it will stop charging at around 83%, so be patient.
 
-On the first start, the application is going to ask you to allow installing a helper tool. This is necessary, since writing SMC Keys requires root privileges.
-Once finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar.
-
-For some reason, macOS will always try to squeeze in a few more percent than specified by the SMC. For example, if you set yours to 80% it will stop charging at around 83%, so be patient. Strangely, this is not the case using Windows with bootcamp, therefore I have chosen not to correct this inaccuracy in code for now.
-
-Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 70%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
-
-IMPORTANT: Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
+IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
 ## FAQ
 * IT DOES NOT WORK???
@@ -90,16 +87,13 @@ AlDente does only prevent your Mac from charging more than you specify, it does 
 Simply reboot your MacBook! This seems to do the trick for most people.
 * HOW TO UNINSTALL?
 
-Make Sure to set your max. charging percentage back to 100 before moving AlDente to the Trash. If you really want to make sure, you can also reset your Mac's SMC. If you want to also remove the helper tool, take a look at this issue: <https://github.com/davidwernhart/AlDente/issues/19>.
+Take a look at our blog post here: https://apphousekitchen.com/how-to-uninstall-aldente-pro/
 * DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?
 
 Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
-* WHAT DOES THE FEATURE "USE OLD SMC KEY (INTEL)" DO?
+* WHY DOES DISCHARGE NOT WORK IN CLAMSHELL MODE?
 
-When activated, AlDente will use a different pathway to inhibit charging with the benefit of inhibiting charging even if your MacBook is turned off. However, it comes with a tradeoff: The feature "Allow Discharge" is not available when its activated. Furthermore, as the name suggests, this feature is only available on Intel MacBooks.
-* WHY DOES ALLOW DISCHARGE NOT WORK IN CLAMSHELL MODE?
-
-Unfortunately, while "Allow Discharge" is activated, clamshell mode is not supported due to technical limitations.
+Unfortunately, while "Discharge" is activated, clamshell mode is not supported due to technical limitations.
 * HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT
 
 Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (0%-100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
@@ -110,11 +104,9 @@ Keeping your battery at a lower percentage, such as 20-70%, over weeks without d
 * <https://github.com/andreyvit/create-dmg>
 
 ## Disclaimer:
-AlDente is currently in alpha phase and bugs may still be possible. Therefore, I do not take any responsibility for any sort of damage in result of using this tool! Alltough this had no negative side effects for me, AlDente still taps in some very low level system functions that are not ment to be tampered with. Use it at your own risk!
+I do not take any responsibility for any sort of damage in result of using this tool! Alltough this had no negative side effects for me and thousands of others, AlDente still taps in some very low level system functions that are not ment to be tampered with. Use it at your own risk!
 
-Copyright(c) 2021 David Wernhart
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Copyright(c) 2021 AppHouseKitchen
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+![image](https://user-images.githubusercontent.com/33470003/124397897-13215200-dd13-11eb-8a03-06a8f1e82678.png)
