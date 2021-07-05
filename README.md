@@ -97,8 +97,11 @@ Unfortunately, while "Discharge" is activated, clamshell mode is not supported d
 * HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT
 
 Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (0%-100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
+* WHAT IS ALDENTE CLASSIC?
 
-## Other tools I used in this project:
+AlDente Classic is our original version of AlDente. First introduced in 2020 and further developed until March 2021. With a complete rewrite of the code of AlDente and the introduction of AlDente Pro, we decided to rename the original AlDente in AlDente Classic and use the name AlDente (Free) or AlDente Pro with a synchronous versioning between these two from now on.
+
+## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
 * <https://github.com/andreyvit/create-dmg>
