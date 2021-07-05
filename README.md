@@ -100,6 +100,9 @@ Keeping your battery at a lower percentage, such as 20-70%, over weeks without d
 * WHAT IS ALDENTE CLASSIC?
 
 AlDente Classic is our original version of AlDente. First introduced in 2020 and further developed until March 2021. With a complete rewrite of the code of AlDente and the introduction of AlDente Pro, we decided to rename the original AlDente in AlDente Classic and use the name AlDente (Free) or AlDente Pro with synchronous versioning between these two from now on.
+* WHY IS ALDENTE NOT SUPPORTED BY OLDER VERSIONS OF MACOS AND ARE YOU PLANNING TO SUPPORT OLDER MACOS VERSIONS IN THE FUTURE?
+
+Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
