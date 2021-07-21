@@ -104,6 +104,10 @@ AlDente Classic is our original version of AlDente. First introduced in 2020 and
 
 Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
 
+* IS ALDENTE OPEN SOURCE?
+
+The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
+
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
