@@ -108,6 +108,10 @@ Due to SwiftUI not being compatible with older versions of macOS, AlDente is onl
 
 The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
 
+* UPDATED TO MACOS 12 MONTEREY AND ALDENTE DOES NOT WORK ANYMORE!
+
+No worries, big macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again.
+
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
