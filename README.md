@@ -6,7 +6,7 @@ _MacOS menu bar tool to limit maximum charging percentage_
 ## Why do I need this?
 Li-Ion batteries (like the one in your MacBook) last the longest when operating between 20 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
 More information can be found here:
-<https://batteryuniversity.com/learn/article/how_to_charge_when_to_charge_table>
+<https://batteryuniversity.com/article/bu-415-how-to-charge-and-when-to-charge>
 
 ## What’s AlDente Pro?
 AlDente Pro is our paid version of AlDente. It has many more features such as Heat Protection, Sailing Mode, Top Up, Calibration Mode,... It offers a better design and has live status icons. If you are interested in getting the most out of your battery, check out our website: https://apphousekitchen.com/
