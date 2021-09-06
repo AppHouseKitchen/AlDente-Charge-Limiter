@@ -79,38 +79,56 @@ For some reason, macOS will always try to squeeze in a few more percent than spe
 IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
 ## FAQ
-* IT DOES NOT WORK???
 
-AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage.
-* STILL NOT WORKING :(
+<details>
+  <summary>IT DOES NOT WORK???</summary>
+  AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage.
+</details>
 
-Simply reboot your MacBook! This seems to do the trick for most people.
-* HOW TO UNINSTALL?
+<details>
+  <summary>STILL NOT WORKING :(</summary>
+  Simply reboot your MacBook! This seems to do the trick for most people.
+</details>
 
-Take a look at our blog post here: https://apphousekitchen.com/how-to-uninstall-aldente-pro/
-* DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?
+<details>
+  <summary>HOW TO UNINSTALL?</summary>
+  Take a look at our blog post here: https://apphousekitchen.com/how-to-uninstall-aldente-pro/
+</details>
 
-Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
-* WHY DOES DISCHARGE NOT WORK IN CLAMSHELL MODE?
+<details>
+  <summary>DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?</summary>
+  Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
+</details>
 
-Unfortunately, while "Discharge" is activated, clamshell mode is not supported due to technical limitations.
-* HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT
+<details>
+  <summary>WHY DOES DISCHARGE NOT WORK IN CLAMSHELL MODE?</summary>
+  Unfortunately, while "Discharge" is activated, clamshell mode is not supported due to technical limitations.
+</details>
+ 
+<details>
+  <summary>HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT</summary>
+  Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (0%-100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
+</details>
 
-Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (0%-100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every month. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again.
-* WHAT IS ALDENTE CLASSIC?
+<details>
+  <summary>WHAT IS ALDENTE CLASSIC?</summary>
+  AlDente Classic is our original version of AlDente. First introduced in 2020 and further developed until March 2021. With a complete rewrite of the code of AlDente and the introduction of AlDente Pro, we decided to rename the original AlDente in AlDente Classic and use the name AlDente (Free) or AlDente Pro with synchronous versioning between these two from now on.
+</details>
 
-AlDente Classic is our original version of AlDente. First introduced in 2020 and further developed until March 2021. With a complete rewrite of the code of AlDente and the introduction of AlDente Pro, we decided to rename the original AlDente in AlDente Classic and use the name AlDente (Free) or AlDente Pro with synchronous versioning between these two from now on.
-* WHY IS ALDENTE NOT SUPPORTED BY OLDER VERSIONS OF MACOS AND ARE YOU PLANNING TO SUPPORT OLDER MACOS VERSIONS IN THE FUTURE?
+<details>
+  <summary>WHY IS ALDENTE NOT SUPPORTED BY OLDER VERSIONS OF MACOS AND ARE YOU PLANNING TO SUPPORT OLDER MACOS VERSIONS IN THE FUTURE?</summary>
+  Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
+</details>
 
-Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
+<details>
+  <summary>IS ALDENTE OPEN SOURCE?</summary>
+  The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
+</details>
 
-* IS ALDENTE OPEN SOURCE?
-
-The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
-
-* UPDATED TO MACOS 12 MONTEREY AND ALDENTE DOES NOT WORK ANYMORE!
-
-No worries, big macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again.
+<details>
+  <summary>UPDATED TO MACOS 12 MONTEREY AND ALDENTE DOES NOT WORK ANYMORE!</summary>
+  No worries, big macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again.
+</details>
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
