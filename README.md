@@ -117,7 +117,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 
 <details>
   <summary>WHY IS ALDENTE NOT SUPPORTED BY OLDER VERSIONS OF MACOS AND ARE YOU PLANNING TO SUPPORT OLDER MACOS VERSIONS IN THE FUTURE?</summary>
-  Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
+  Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur on newer. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
 </details>
 
 <details>
