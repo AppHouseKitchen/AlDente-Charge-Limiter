@@ -19,6 +19,8 @@ AlDente Pro is our paid version of AlDente. It has many more features such as He
 
 #### MacBook Pro
 Full Support
+* MacBook Pro (16-inch, M1 Pro/Max, 2021)
+* MacBook Pro (14-inch, M1 Pro/Max, 2021)
 * MacBook Pro (13-inch, M1, 2020)
 * MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)
 * MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)
