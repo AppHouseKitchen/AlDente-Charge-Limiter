@@ -37,7 +37,7 @@ Full Support
 * MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)
 * MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)
 
-Limited Support(Only Charge Limiter)
+Limited Support(Only Charge Limiter trough Intel Mode)
 * MacBook Pro (Retina, 15-inch, Mid 2015)
 * MacBook Pro (Retina, 13-inch, Early 2015)
 * MacBook Pro (Retina, 15-inch, Mid 2014)
@@ -52,7 +52,7 @@ Full Support
 * MacBook Air (Retina, 13-inch, 2019)
 * MacBook Air (Retina, 13-inch, 2018)
 
-Limited Support(Only Charge Limiter)
+Limited Support(Only Charge Limiter trough Intel Mode)
 * MacBook Air (13-inch, 2017)
 * MacBook Air (13-inch, Early 2015)
 * MacBook Air (11-inch, Early 2015)
@@ -62,7 +62,7 @@ Limited Support(Only Charge Limiter)
 * MacBook Air (11-inch, Mid 2013)
 
 #### MacBook 12"
-Limited Support(Only Charge Limiter)
+Limited Support(Only Charge Limiter trough Intel Mode)
 * MacBook (Retina, 12-inch, 2017)
 * MacBook (Retina, 12-inch, Early 2016)
 * MacBook (Retina, 12-inch, Early 2015)
@@ -88,8 +88,10 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 </details>
 
 <details>
-  <summary>STILL NOT WORKING :(</summary>
-  Simply reboot your MacBook! This seems to do the trick for most people.
+  <summary>CHARGE LIMITER DOES NOT WORK! :(</summary>
+  AlDente can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
 </details>
 
 <details>
@@ -104,7 +106,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 
 <details>
   <summary>WHY DOES DISCHARGE NOT WORK IN CLAMSHELL MODE?</summary>
-  Unfortunately, while "Discharge" is activated, clamshell mode is not supported due to technical limitations.
+  Discharge in Clamshell mode is only supported in AlDente Pro.
 </details>
  
 <details>
