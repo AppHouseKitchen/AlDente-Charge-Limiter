@@ -37,7 +37,7 @@ Full Support
 * MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)
 * MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)
 
-Limited Support(Only Charge Limiter trough Intel Mode)
+Limited Support(Only Charge Limiter through Intel Mode)
 * MacBook Pro (Retina, 15-inch, Mid 2015)
 * MacBook Pro (Retina, 13-inch, Early 2015)
 * MacBook Pro (Retina, 15-inch, Mid 2014)
@@ -52,7 +52,7 @@ Full Support
 * MacBook Air (Retina, 13-inch, 2019)
 * MacBook Air (Retina, 13-inch, 2018)
 
-Limited Support(Only Charge Limiter trough Intel Mode)
+Limited Support(Only Charge Limiter through Intel Mode)
 * MacBook Air (13-inch, 2017)
 * MacBook Air (13-inch, Early 2015)
 * MacBook Air (11-inch, Early 2015)
@@ -62,7 +62,7 @@ Limited Support(Only Charge Limiter trough Intel Mode)
 * MacBook Air (11-inch, Mid 2013)
 
 #### MacBook 12"
-Limited Support(Only Charge Limiter trough Intel Mode)
+Limited Support(Only Charge Limiter through Intel Mode)
 * MacBook (Retina, 12-inch, 2017)
 * MacBook (Retina, 12-inch, Early 2016)
 * MacBook (Retina, 12-inch, Early 2015)
