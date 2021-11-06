@@ -89,7 +89,21 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 
 <details>
   <summary>CHARGE LIMITER DOES NOT WORK! :(</summary>
-  AlDente can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
+  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
+</details>
+
+<details>
+  <summary>Why does my MacBook keep charging when it is powered off?</summary>
+  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
+  https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
+</details>
+
+<details>
+  <summary>Why does my MacBook keep charging when it is in sleep?</summary>
+  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
   https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
   https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
 </details>
