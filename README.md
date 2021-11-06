@@ -114,7 +114,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 </details>
 
 <details>
-  <summary>DO I HAVE TO UNCHECK THE BUILT IN BATTERY HEALTH CHECKBOX?</summary>
+  <summary>DO I HAVE TO DISABLE APPLE'S "OPTIMIZED BATTERY CHARGING"?</summary>
   Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
 </details>
 
