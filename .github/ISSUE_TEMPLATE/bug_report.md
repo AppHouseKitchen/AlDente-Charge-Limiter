@@ -29,7 +29,6 @@ If applicable, add screenshots or screen recordings to help explain your problem
  - AlDente Pro or AlDente Free?
  - AlDente version
  - List of all enabled/disabled settings in AlDente
- - Share a debug file
 
 **Additional context**
 Add any other context about the problem here.
