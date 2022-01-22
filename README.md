@@ -10,6 +10,7 @@ More information can be found here:
 
 ## What’s AlDente Pro?
 AlDente Pro is our paid version of AlDente. It has many more features such as Heat Protection, Sailing Mode, Top Up, Calibration Mode,... It offers a better design and has live status icons. If you are interested in getting the most out of your battery, check out our website: https://apphousekitchen.com/
+
 AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 
 ## Features of AlDente Free
