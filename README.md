@@ -4,7 +4,7 @@ _MacOS menu bar tool to limit maximum charging percentage_
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
 ## Why do I need this?
-Li-Ion batteries (like the one in your MacBook) last the longest when operating between 20 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
+Li-Ion batteries (like the one in your MacBook) last the longest when operating between 30 and 80 percent. Keeping your battery at 100% at all times can shorten the lifespan of your MacBook significantly.
 More information can be found here:
 <https://batteryuniversity.com/article/bu-415-how-to-charge-and-when-to-charge>
 
