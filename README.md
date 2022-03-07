@@ -127,12 +127,12 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
  
  <details>
   <summary>HELP, SAILING MODE DOES NOT WORK!?</summary>
-  The Sailing Mode is not intended to actively discharge your battery. Therefore, your MacBook will barely lose any energy even in Sailing Mode, since the power brick is the main source of energy. So do not worry when the battery percentage does not change even if the Sailing Mode is activated. Sailing Mode is still doing its thing.
+  The Sailing Mode is not intended to actively discharge your battery. Therefore, your MacBook will barely lose any energy even in Sailing Mode, since the power brick is the main source of energy. So do not worry when the battery percentage does not change even if the Sailing Mode is activated. Sailing Mode is still doing its thing. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
 </details>
 
  <details>
   <summary>WHY DOES THE SAILING MODE NOT CHARGE AND DISCHARGE THE MACBOOK BETWEEN A CERTAIN RANGE?</summary>
-  Unlike the common belief, it is actually way more unhealthy for a battery to always get cycled between a reasonable range (for example between 30% and 70%) than to just stay at a healthy percentage (for example 80%). This is due to even reasonable charge cycling adding a lot of charge cycles which results in more and faster battery degradation over time than just using the MacBook plugged in at a healthy percentage. However, this does not mean that you should not use your MacBook remotely. MacBooks are portable devices but if you use your MacBook in your office pugged in, it is better to just limit charging to a healthy percentage than to cycle between a certain range.
+  Unlike the common belief, it is actually way more unhealthy for a battery to always get cycled between a reasonable range (for example between 30% and 70%) than to just stay at a healthy percentage (for example 80%). This is due to even reasonable charge cycling adding a lot of charge cycles which results in more and faster battery degradation over time than just using the MacBook plugged in at a healthy percentage. However, this does not mean that you should not use your MacBook remotely. MacBooks are portable devices but if you use your MacBook in your office pugged in, it is better to just limit charging to a healthy percentage than to cycle between a certain range. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
 </details>
  
 <details>
@@ -158,6 +158,11 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 <details>
   <summary>UPDATED TO MACOS 12 MONTEREY AND ALDENTE DOES NOT WORK ANYMORE!</summary>
   No worries, big macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again.
+</details>
+
+<details>
+  <summary>DOES ALDENTE SUPPORT APPLE'S FAST USER SWITCHING?</summary>
+  Yes, since AlDente 1.15, Apple's Fast User Switching is supported. Please follow this tutorial to get it to work properly: https://apphousekitchen.com/fast-user-switching-explanation-and-tutorial/
 </details>
 
 ## Other tools used in this project:
