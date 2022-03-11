@@ -86,7 +86,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 
 <details>
   <summary>IT DOES NOT WORK???</summary>
-  Firstly, AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage. Secondly, make sure you have Apple's "Optimized battery charging" disabled, keeping it on will result in slow charging beyond the charge limit. Lastly, check the next questing regarding the behavior of AlDente while your MacBook is in sleep or powered off.
+  Firstly, AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage. Secondly, make sure you have Apple's "Optimized battery charging" disabled, keeping it on will result in slow charging beyond the charge limit. Lastly, check the next question regarding the behavior of AlDente while your MacBook is in sleep or powered off.
 </details>
 
 <details>
