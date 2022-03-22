@@ -80,7 +80,7 @@ When the installation is finished, enter your desired max. charging percentage b
 
 For some reason, macOS will always try to squeeze in a few more percent than specified. For example, if you set yours to 80% it will stop charging at around 83%, so be patient.
 
-IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
+IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
 ## FAQ
 
@@ -137,7 +137,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
  
 <details>
   <summary>HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT</summary>
-  Keeping your battery at a lower percentage, such as 20-70%, over weeks without doing full cycles (100%-0%-100%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again. AlDente Pro has a feature called Calibration Mode(https://apphousekitchen.com/feature-explanation-calibration-mode-2/), which will automatically do a full cycle when startet. You can read more about the calibration of "smart" batteries here: https://batteryuniversity.com/article/bu-603-how-to-calibrate-a-smart-battery
+  Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%-100%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again. AlDente Pro has a feature called Calibration Mode(https://apphousekitchen.com/feature-explanation-calibration-mode-2/), which will automatically do a full cycle when startet. You can read more about the calibration of "smart" batteries here: https://batteryuniversity.com/article/bu-603-how-to-calibrate-a-smart-battery
 </details>
 
 <details>
@@ -156,8 +156,8 @@ IMPORTANT: Keeping your battery at a lower percentage, such as 20-80%, over week
 </details>
 
 <details>
-  <summary>UPDATED TO MACOS 12 MONTEREY AND ALDENTE DOES NOT WORK ANYMORE!</summary>
-  No worries, big macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again.
+  <summary>ALDENTE DOES NOT WORK ANYMORE AFTER MACOS UPDATE!</summary>
+  No worries, macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again. If that did not help, try to shut down your MacBook completeley and uplug the power brick for a couple of minutes. Afterward, everything should work again.
 </details>
 
 <details>
