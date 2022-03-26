@@ -132,12 +132,12 @@ IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over w
 
  <details>
   <summary>WHY DOES THE SAILING MODE NOT CHARGE AND DISCHARGE THE MACBOOK BETWEEN A CERTAIN RANGE?</summary>
-  Unlike the common belief, it is actually way more unhealthy for a battery to always get cycled between a reasonable range (for example between 30% and 70%) than to just stay at a healthy percentage (for example 80%). This is due to even reasonable charge cycling adding a lot of charge cycles which results in more and faster battery degradation over time than just using the MacBook plugged in at a healthy percentage. However, this does not mean that you should not use your MacBook remotely. MacBooks are portable devices but if you use your MacBook in your office pugged in, it is better to just limit charging to a healthy percentage than to cycle between a certain range. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
+  Unlike the common belief, it is actually way more unhealthy for a battery to always get cycled between a reasonable range (for example between 30% and 70%) than to just stay at a healthy percentage (for example 80%). This is due to even reasonable charge cycling adding a lot of charge cycles which results in more and faster battery degradation over time than just using the MacBook plugged in at a healthy percentage. However, this does not mean that you should not use your MacBook remotely. MacBooks are portable devices but if you use your MacBook in your office plugged in, it is better to just limit charging to a healthy percentage than to cycle between a certain range. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
 </details>
  
 <details>
   <summary>HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT</summary>
-  Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%-100%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again. AlDente Pro has a feature called Calibration Mode(https://apphousekitchen.com/feature-explanation-calibration-mode-2/), which will automatically do a full cycle when startet. You can read more about the calibration of "smart" batteries here: https://batteryuniversity.com/article/bu-603-how-to-calibrate-a-smart-battery
+  Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%-100%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again. AlDente Pro has a feature called Calibration Mode(https://apphousekitchen.com/feature-explanation-calibration-mode-2/), which will automatically do a full cycle when started. You can read more about the calibration of "smart" batteries here: https://batteryuniversity.com/article/bu-603-how-to-calibrate-a-smart-battery
 </details>
 
 <details>
@@ -157,7 +157,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over w
 
 <details>
   <summary>ALDENTE DOES NOT WORK ANYMORE AFTER MACOS UPDATE!</summary>
-  No worries, macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again. If that did not help, try to shut down your MacBook completeley and uplug the power brick for a couple of minutes. Afterward, everything should work again.
+  No worries, macOS updates might require a reinstall for AlDente. Just reinstall AlDente and everything should work as expected again. If that did not help, try to shut down your MacBook completely and unplug the power brick for a couple of minutes. Afterward, everything should work again.
 </details>
 
 <details>
