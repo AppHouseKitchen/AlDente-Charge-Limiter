@@ -171,7 +171,7 @@ IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over w
 * <https://github.com/andreyvit/create-dmg>
 
 ## Disclaimer:
-I do not take any responsibility for any sort of damage in result of using this tool! Alltough this had no negative side effects for me and thousands of others, AlDente still taps in some very low level system functions that are not ment to be tampered with. Use it at your own risk!
+I do not take any responsibility for any sort of damage in result of using this tool! Although this had no negative side effects for me and thousands of others, AlDente still taps in some very low level system functions that are not meant to be tampered with. Use it at your own risk!
 
 Copyright(c) 2021 AppHouseKitchen
 
