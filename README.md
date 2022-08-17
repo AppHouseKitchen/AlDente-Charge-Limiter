@@ -20,7 +20,6 @@ AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 ## Supported Devices (macOS 11 Big Sur or higher required)
 
 #### MacBook Pro
-Full Support
 * MacBook Pro (16-inch, M1 Pro/Max, 2021)
 * MacBook Pro (14-inch, M1 Pro/Max, 2021)
 * MacBook Pro (13-inch, M1, 2020)
@@ -46,7 +45,6 @@ Full Support
 * MacBook Pro (Retina, 13-inch, Late 2013)
 
 #### MacBook Air
-Full Support
 * MacBook Air (M1, 2020)
 * MacBook Air (Retina, 13-inch, 2020)
 * MacBook Air (Retina, 13-inch, 2019)
