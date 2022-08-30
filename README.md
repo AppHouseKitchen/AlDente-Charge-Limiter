@@ -83,79 +83,8 @@ For some reason, macOS will always try to squeeze in a few more percent than spe
 
 IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
-## FAQ
-
-<details>
-  <summary>IT DOES NOT WORK???</summary>
-  Firstly, AlDente does only prevent your Mac from charging more than you specify, it does NOT automatically drain your battery to the specified percentage. Secondly, make sure you have Apple's "Optimized battery charging" disabled, keeping it on will result in slow charging beyond the charge limit. Lastly, check the next question regarding the behavior of AlDente while your MacBook is in sleep or powered off.
-</details>
-
-<details>
-  <summary>CHARGE LIMITER DOES NOT WORK! :(</summary>
-  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
-  https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
-  https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
-</details>
-
-<details>
-  <summary>WHY DOES MY MACBOOK KEEP CHARGING WHEN IT IS POWERED OFF?</summary>
-  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
-  https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
-  https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
-</details>
-
-<details>
-  <summary>WHY DOES MY MACBOOK KEEP CHARGING WHEN IT IS IN SLEEP?</summary>
-  AlDente Free can not control the charging behavior of your MacBook while it is in sleep, or shut down. Therefore, it will continue to charge to 100% when you close the lid or shut it down. AlDente Pro has features called "Stop charging when sleeping" and "Stop charging when powered off" to counteract this behavior. You can read more about these features in our blog:
-  * https://apphousekitchen.com/feature-explanation-stop-charging-when-sleeping/
-  * https://apphousekitchen.com/feature-explanation-stop-charging-when-powered-off-app-closed/
-</details>
-
-<details>
-  <summary>HOW TO UNINSTALL?</summary>
-  Take a look at our blog post here: https://apphousekitchen.com/how-to-uninstall-aldente-pro/
-</details>
-
-<details>
-  <summary>DO I HAVE TO DISABLE APPLE'S "OPTIMIZED BATTERY CHARGING"?</summary>
-  Yes! Leaving it on results in slow charging, even when AlDente is trying to inhibit it.
-</details>
-
-<details>
-  <summary>WHY DOES DISCHARGE NOT WORK IN CLAMSHELL MODE?</summary>
-  Discharge in Clamshell mode is only supported in AlDente Pro.
-</details>
- 
- <details>
-  <summary>HELP, SAILING MODE DOES NOT WORK!?</summary>
-  The Sailing Mode is not intended to actively discharge your battery. Therefore, your MacBook will barely lose any energy even in Sailing Mode, since the power brick is the main source of energy. So do not worry when the battery percentage does not change even if the Sailing Mode is activated. Sailing Mode is still doing its thing. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
-</details>
-
- <details>
-  <summary>WHY DOES THE SAILING MODE NOT CHARGE AND DISCHARGE THE MACBOOK BETWEEN A CERTAIN RANGE?</summary>
-  Unlike the common belief, it is actually way more unhealthy for a battery to always get cycled between a reasonable range (for example between 30% and 70%) than to just stay at a healthy percentage (for example 80%). This is due to even reasonable charge cycling adding a lot of charge cycles which results in more and faster battery degradation over time than just using the MacBook plugged in at a healthy percentage. However, this does not mean that you should not use your MacBook remotely. MacBooks are portable devices but if you use your MacBook in your office plugged in, it is better to just limit charging to a healthy percentage than to cycle between a certain range. You can read more about what the Sailing Mode actually does here: https://apphousekitchen.com/feature-explanation-sailing-mode/
-</details>
- 
-<details>
-  <summary>HELP MY BATTERY CAPACITY DROPPED AND MY MACBOOK TURNS OFF WITH 50% LEFT OR STAYS AT 100% FOR HOURS!!!</summary>
-  Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%-100%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or it will stay at 100% for hours and your battery capacity can drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4-5 full cycles will recalibrate your battery and the capacity will go up again. AlDente Pro has a feature called Calibration Mode(https://apphousekitchen.com/feature-explanation-calibration-mode-2/), which will automatically do a full cycle when started. You can read more about the calibration of "smart" batteries here: https://batteryuniversity.com/article/bu-603-how-to-calibrate-a-smart-battery
-</details>
-
-<details>
-  <summary>WHAT IS ALDENTE CLASSIC?</summary>
-  AlDente Classic is our original version of AlDente. First introduced in 2020 and further developed until March 2021. With a complete rewrite of the code of AlDente and the introduction of AlDente Pro, we decided to rename the original AlDente in AlDente Classic and use the name AlDente (Free) or AlDente Pro with synchronous versioning between these two from now on.
-</details>
-
-<details>
-  <summary>WHY IS ALDENTE NOT SUPPORTED BY OLDER VERSIONS OF MACOS AND ARE YOU PLANNING TO SUPPORT OLDER MACOS VERSIONS IN THE FUTURE?</summary>
-  Due to SwiftUI not being compatible with older versions of macOS, AlDente is only compatible with macOS 11 Big Sur on newer. Even though it might be possible to get AlDente to work on older MacBooks and macOS versions too, we are currently not working on it.
-</details>
-
-<details>
-  <summary>IS ALDENTE OPEN SOURCE?</summary>
-  The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
-</details>
-
+## FAQ's
+Check out our FAQ's on our website here: https://apphousekitchen.com/faq/
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
