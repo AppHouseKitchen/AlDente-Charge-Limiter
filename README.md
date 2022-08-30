@@ -20,6 +20,7 @@ AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 ## Supported Devices (macOS 11 Big Sur or higher required)
 
 #### MacBook Pro
+* MacBook Pro (13-inch, M2, 2022)
 * MacBook Pro (16-inch, M1 Pro/Max, 2021)
 * MacBook Pro (14-inch, M1 Pro/Max, 2021)
 * MacBook Pro (13-inch, M1, 2020)
@@ -45,6 +46,7 @@ AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 * MacBook Pro (Retina, 13-inch, Late 2013)
 
 #### MacBook Air
+* MacBook Air (M2, 2022)
 * MacBook Air (M1, 2020)
 * MacBook Air (Retina, 13-inch, 2020)
 * MacBook Air (Retina, 13-inch, 2019)
@@ -58,7 +60,6 @@ AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 * MacBook Air (11-inch, Mid 2013)
 
 #### MacBook 12"
-Limited Support(Only Charge Limiter through Intel Mode)
 * MacBook (Retina, 12-inch, 2017)
 * MacBook (Retina, 12-inch, Early 2016)
 * MacBook (Retina, 12-inch, Early 2015)
