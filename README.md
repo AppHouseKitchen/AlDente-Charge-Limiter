@@ -70,13 +70,13 @@ AlDente Pro is now available in Setapp too: https://setapp.com/apps/aldente-pro
 </details>
 
 
-## Download:
+## Download
 You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
 
 ## Installation Guide
 An installation guide can be found on our website: https://apphousekitchen.com/installation-guide/
 
-## How to use:
+## How to use
 When the installation is finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar. Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 80%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
 For some reason, macOS will always try to squeeze in a few more percent than specified. For example, if you set yours to 80% it will stop charging at around 83%, so be patient.
