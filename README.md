@@ -156,10 +156,6 @@ IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over w
   The first couple of versions of AlDente Classic until AlDente Classic 2.0 are open source. Later versions of AlDente Classic or AlDente Free/Pro are not open source anymore.
 </details>
 
-<details>
-  <summary>ALDENTE DOES NOT WORK ANYMORE AFTER MACOS UPDATE!</summary>
-  Unfortunately, for a small amount of users, AlDente temporarily does not work after a macOS update. To get AlDente to work again, just reinstall AlDente completely and everything should work as expected again. If that did not help, try to shut down your MacBook completely and unplug the power brick for a couple of minutes. Afterward, restart your MacBook, plug it in, and everything should work again.
-</details>
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
