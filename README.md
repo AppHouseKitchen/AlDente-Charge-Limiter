@@ -161,11 +161,6 @@ IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over w
   Unfortunately, for a small amount of users, AlDente temporarily does not work after a macOS update. To get AlDente to work again, just reinstall AlDente completely and everything should work as expected again. If that did not help, try to shut down your MacBook completely and unplug the power brick for a couple of minutes. Afterward, restart your MacBook, plug it in, and everything should work again.
 </details>
 
-<details>
-  <summary>DOES ALDENTE SUPPORT APPLE'S FAST USER SWITCHING?</summary>
-  Yes, since AlDente 1.15, Apple's Fast User Switching is supported. Please follow this tutorial to get it to work properly: https://apphousekitchen.com/fast-user-switching-explanation-and-tutorial/
-</details>
-
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
