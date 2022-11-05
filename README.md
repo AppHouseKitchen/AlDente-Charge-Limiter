@@ -1,4 +1,4 @@
-# AlDente 🍝
+# AlDente - Charge Limiter🍝
 _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
