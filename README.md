@@ -79,8 +79,6 @@ An installation guide can be found on our website: https://apphousekitchen.com/i
 ## How to use
 When the installation is finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar. Usually, the operating system will take a minute or two registering the changes, so be patient. You can check if it's working by setting the max. percentage to e.g.: 80%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
 
-For some reason, macOS will always try to squeeze in a few more percent than specified. For example, if you set yours to 80% it will stop charging at around 83%, so be patient.
-
 IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
 ## FAQ's
