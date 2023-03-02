@@ -23,6 +23,8 @@ AlDente Pro is now available in Setapp too: https://apphousekitchen.com/pricing/
   <summary>Click here for supported MacBook Models</summary>
   
 #### MacBook Pro
+* MacBook Pro (16-inch, M2 Pro/Max, 2022)
+* MacBook Pro (14-inch, M2 Pro/Max, 2022)
 * MacBook Pro (13-inch, M2, 2022)
 * MacBook Pro (16-inch, M1 Pro/Max, 2021)
 * MacBook Pro (14-inch, M1 Pro/Max, 2021)
