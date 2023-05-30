@@ -14,7 +14,7 @@ AlDente Pro is now available on [Setapp](https://apphousekitchen.com/pricing/) t
 
 ## Features of AlDente Free
 * Charge Limiter allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards. Read more about the Charge Limiter feature in this article ["Feature Explanation: Charge Limiter"](https://apphousekitchen.com/feature-explanation-charge-limiter/).
-* Discharge - This feature allows your MacBook to run completely on Battery even if it is plugged in. Therefore, you can actively discharge your MacBook to a more healthy percentage. Unfortunately, while Discharge is activated, clamshell mode is not supported due to technical limitations. Read more about the Discharge feature in this article ["Feature Explanation: Charge Limiter"](https://apphousekitchen.com/feature-explanation-discharge/).
+* Discharge - This feature allows your MacBook to run completely on Battery even if it is plugged in. Therefore, you can actively discharge your MacBook to a more healthy percentage. Unfortunately, while Discharge is activated, clamshell mode is not supported due to technical limitations. Read more about the Discharge feature in this article ["Feature Explanation: Discharge"](https://apphousekitchen.com/feature-explanation-discharge/).
 
 ## Supported MacBook Models (macOS 11 Big Sur or later required)
 
