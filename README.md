@@ -31,8 +31,10 @@ When the installation is finished, enter your desired max. charging percentage b
 
 IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, over weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your Macbook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery and the capacity will go up again.
 
-## FAQ's
-Check out our FAQ's on our website [here](https://apphousekitchen.com/faq/).
+## Support
+Most questions are already answered on our [FAQ page](https://apphousekitchen.com/faq/) or on our [blog](https://apphousekitchen.com/blog/). Check them out!
+E-mail support is only available for AlDente Pro customers. Check out our [support page](https://apphousekitchen.com/support/) if you want to contact us.
+Due to limited recourses, we are not able providing support to AlDente Free users or here in Github.
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
