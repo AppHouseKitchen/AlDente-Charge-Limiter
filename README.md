@@ -19,7 +19,7 @@ AlDente Pro is now available in Setapp too: https://apphousekitchen.com/pricing/
 
 ## Supported MacBook Models (macOS 11 Big Sur or later required)
 
-Check out if your MacBook is supported on our FAQ page: <https://apphousekitchen.com/faq/>
+Check out if your MacBook is supported on our [FAQ page](https://apphousekitchen.com/faq/).
 
 ## Download
 You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/releases>
