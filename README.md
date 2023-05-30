@@ -8,12 +8,12 @@ Li-Ion batteries (like the one in your MacBook) last the longest when operating 
 More information can be found at [Battery University](https://batteryuniversity.com/article/bu-415-how-to-charge-and-when-to-charge).
 
 ## What’s AlDente Pro?
-AlDente Pro is our paid version of AlDente. It has many more features such as Heat Protection, Sailing Mode, Top Up, Calibration Mode,... It offers a better design and has live status icons. If you are interested in getting the most out of your battery, check out our website: https://apphousekitchen.com/
+AlDente Pro is our paid version of AlDente. It has many more features such as Heat Protection, Sailing Mode, Top Up, Calibration Mode,... It offers a better design and has live status icons. If you are interested in getting the most out of your battery, check out our [website](https://apphousekitchen.com/).
 
-AlDente Pro is now available in Setapp too: https://apphousekitchen.com/pricing/
+AlDente Pro is now available on [Setapp](https://apphousekitchen.com/pricing/) too.
 
 ## Features of AlDente Free
-* Charge Limiter allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards. Read more about the Charge Limiter feature here: https://apphousekitchen.com/feature-explanation-charge-limiter/
+* Charge Limiter allows you to set your maximum charging percentage between 20 and 100 percent. You can either set it by using the slide bar or by typing in the desired percentage in the field above and pressing enter afterwards. Read more about the Charge Limiter feature in this article ["Feature Explanation: Charge Limiter"](https://apphousekitchen.com/feature-explanation-charge-limiter/).
 * Discharge - This feature allows your MacBook to run completely on Battery even if it is plugged in. Therefore, you can actively discharge your MacBook to a more healthy percentage. Unfortunately, while Discharge is activated, clamshell mode is not supported due to technical limitations. Read more about the Discharge feature here: https://apphousekitchen.com/feature-explanation-discharge/
 
 ## Supported MacBook Models (macOS 11 Big Sur or later required)
