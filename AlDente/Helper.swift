@@ -248,7 +248,8 @@ final class Helper {
             print("helperVersion:", helperVersion, " version from helper:", version)
             if !helperVersion.elementsEqual(version) {
                 reply(false)
-                return()            }
+                return()
+            }
             else{
                 self.isInitialized = true
                 reply(true)
