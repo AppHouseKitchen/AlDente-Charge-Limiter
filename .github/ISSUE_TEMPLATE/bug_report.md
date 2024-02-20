@@ -12,7 +12,7 @@ assignees: ''
  - AlDente Pro or AlDente Free?
  - AlDente Version?
  - List or add screenshots of all enabled/disabled settings in AlDente:
- - Please share a debug file the next time this happens so that we can assess this issue better. You can find a guide on How to generate and share a debug file on our blog.
+ - Please share a debug file the next time this happens so that we can assess this issue better. You can find a guide on How to generate and share a debug file on our blog(https://apphousekitchen.com/how-to-generate-and-share-a-debug-file/).
 
 **Describe the bug**
 A clear and concise description of what the bug is.
