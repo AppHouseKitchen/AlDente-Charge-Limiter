@@ -1,4 +1,8 @@
-# AlDente - Charge Limiter🍝
+<div align="center">
+    <img src="AlDente/Assets.xcassets/AppIcon.appiconset/512pt_Mac_1x.png" width=200 height=200>
+    <h1>AlDente - Charge Limiter</h1>
+</div>
+
 _MacOS menu bar tool to limit maximum charging percentage_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
